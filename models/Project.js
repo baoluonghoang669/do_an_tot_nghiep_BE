@@ -68,7 +68,7 @@ const ProjectSchema = new mongoose.Schema({
   },
   isBooked: {
     type: Boolean,
-    default: false
+    default: false,
   },
   createdAt: {
     type: Date,
@@ -79,6 +79,10 @@ const ProjectSchema = new mongoose.Schema({
     ref: "Category",
     required: true,
   },
+},
+{
+  toJSON: { virtuals: true },
+  toObject: { virtuals: true },
 });
 
 //Create project slug from the name
@@ -107,6 +111,21 @@ ProjectSchema.pre("save", async function (next) {
   //Do not save address in
   this.address = undefined;
   next();
+});
+
+//Cascade delete reviews when a project is deleted
+ProjectSchema.pre("remove", async function (next) {
+  console.log(`Reviews being removed from project ${this._id}`);
+  await this.model("Review").deleteMany({ project: this._id });
+  next();
+});
+
+//Reverse populate with virtuals
+ProjectSchema.virtual("reviews", {
+  ref: "Review",
+  localField: "_id",
+  foreignField: "project",
+  justOne: false,
 });
 
 module.exports = mongoose.model("Project", ProjectSchema);

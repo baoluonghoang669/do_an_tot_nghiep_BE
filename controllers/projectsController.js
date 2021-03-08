@@ -13,6 +13,8 @@ exports.getProjects = asyncHandler(async (req, res, next) => {
   if (req.params.categoriesId) {
     const project = await Project.find({
       categories: req.params.categoriesId,
+    }).populate({
+      path: "reviews",
     });
 
     return res.status(200).json({

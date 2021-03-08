@@ -8,6 +8,14 @@ const db = require("./config/db");
 const errorHandler = require("./middleware/error");
 const fileupload = require("express-fileupload");
 
+//import secure
+const mongoSanitize = require("express-mongo-sanitize");
+const helmet = require("helmet");
+const xss = require("xss-clean");
+const hpp = require("hpp");
+const rateLimit = require("express-rate-limit");
+const cors = require("cors");
+
 //load env vars
 dotenv.config({ path: "./config/config.env" });
 
@@ -19,6 +27,7 @@ const authRoutes = require("./routes/auth");
 const projectsRoutes = require("./routes/projects");
 const categoriesRoutes = require("./routes/categories");
 const usersRoutes = require("./routes/users");
+const reviewsRoutes = require("./routes/reviews");
 
 //Body parser
 app.use(express.json());
@@ -34,6 +43,25 @@ if (process.env.NODE_ENV === "development") {
 //File uploading
 app.use(fileupload());
 
+//Santilize data
+app.use(mongoSanitize());
+
+//Set security
+app.use(helmet());
+
+//Prevent XSS attacks
+app.use(xss());
+
+//Rate limiting
+const limiter = rateLimit({
+  window: 10 * 60 * 1000, // 10 mins
+  max: 100,
+});
+app.use(limiter);
+
+//Enable Cors
+app.use(cors());
+
 //Set static folder
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -42,6 +70,7 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/projects", projectsRoutes);
 app.use("/api/v1/categories", categoriesRoutes);
 app.use("/api/v1/users", usersRoutes);
+app.use("/api/v1/reviews", reviewsRoutes);
 
 //Handle errors
 app.use(errorHandler);

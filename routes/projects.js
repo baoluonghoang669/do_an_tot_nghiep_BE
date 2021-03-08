@@ -12,9 +12,15 @@ const Project = require("../models/Project");
 
 const router = express.Router({ mergeParams: true });
 
+//Include other resource routers
+const reviewsRouter = require("./reviews");
+
 //middleware advanced
 const advancedResults = require("../middleware/advancedResults");
 const { protect, authorize } = require("../middleware/auth");
+
+//Re-router into other resource routers
+router.use("/:projectId/reviews", reviewsRouter);
 
 router
   .route("/")
