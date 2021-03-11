@@ -6,7 +6,7 @@ const crypto = require("crypto");
 const UserSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: [true, "Please add a name"],
+    default: "",
   },
   email: {
     type: String,
@@ -19,20 +19,27 @@ const UserSchema = new mongoose.Schema({
   },
   birthday: {
     type: Date,
-    required: [true, "Please add a birthday"],
     default: Date.now,
   },
   city: {
     type: String,
-    required: [true, "Please add a city"],
+    default: "",
+  },
+  country: {
+    type: String,
+    default: "",
   },
   address: {
     type: String,
-    required: [true, "Please add a address"],
+    default: "",
   },
   phone: {
     type: Number,
-    required: [true, "Please add a phone"],
+    default: "",
+  },
+  avatar: {
+    type: String,
+    default: "no-photo.jpg",
   },
   role: {
     type: String,

@@ -9,6 +9,15 @@ const CategorySchema = new mongoose.Schema(
       trim: true,
       maxLength: [50, "Name can not be more than 50 characters"],
     },
+    image: {
+      type: String,
+      default: "no-photo.jpg",
+    },
+    description: {
+      type: String,
+      required: [true, "Please add a description"],
+      maxLength: [1000, "Description can not be more than 1000 characters"],
+    },
     createdAt: {
       type: Date,
       default: Date.now,

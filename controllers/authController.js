@@ -1,3 +1,4 @@
+const path = require("path");
 const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
 const User = require("../models/User");
@@ -36,25 +37,10 @@ exports.login = asyncHandler(async (req, res, next) => {
 //@route Post /api/v1/auth/register
 //@access Public
 exports.register = asyncHandler(async (req, res, next) => {
-  const {
-    name,
-    email,
-    birthday,
-    city,
-    address,
-    phone,
-    role,
-    password,
-  } = req.body;
+  const { email, password } = req.body;
 
   const user = await User.create({
-    name,
     email,
-    birthday,
-    city,
-    address,
-    phone,
-    role,
     password,
   });
 
@@ -168,6 +154,7 @@ exports.updateDetails = asyncHandler(async (req, res, next) => {
     city: req.body.city,
     address: req.body.address,
     phone: req.body.phone,
+    avatar: req.body.avatar,
   };
 
   const user = await User.findByIdAndUpdate(req.user.id, fieldsToUpdate, {
@@ -219,3 +206,59 @@ const sendTokenResponse = (user, statusCode, res) => {
     token,
   });
 };
+
+//@desc Upload avatar for user
+//@route PUT /api/v1/auth/:id/avatar
+//@access Private
+exports.uploadAvatar = asyncHandler(async (req, res, next) => {
+  const users = await User.findById(req.params.id);
+
+  if (!users) {
+    return next(
+      new ErrorResponse(`User not found with id of ${req.params.id}`),
+      404
+    );
+  }
+
+  //Make sure review belongs to user or user is an admin
+  if (users.id.toString() !== req.user.id && req.user.role !== "admin") {
+    return next(new ErrorResponse(`Not authorized to update review`, 401));
+  }
+
+  if (!req.files) {
+    return next(new ErrorResponse(`Please upload a file`), 404);
+  }
+
+  const file = req.files.file;
+
+  if (!file.mimetype.startsWith("image")) {
+    return next(new ErrorResponse(`Please upload an image file`), 404);
+  }
+
+  //check filesize
+  if (file.size > process.env.MAX_FILE_UPLOAD) {
+    return next(
+      new ErrorResponse(
+        `Please upload an image less than ${process.env.MAX_FILE_UPLOAD}`
+      ),
+      404
+    );
+  }
+
+  //Create custom filename
+  file.name = `photo_${users._id}${path.parse(file.name).ext}`;
+
+  file.mv(`${process.env.FILE_UPLOAD_PATH}/${file.name}`, async (err) => {
+    if (err) {
+      console.log(err);
+      return next(new ErrorResponse(`Problem with upload file`), 500);
+    }
+
+    await User.findByIdAndUpdate(req.params.id, { avatar: file.name });
+
+    res.status(200).json({
+      success: true,
+      data: file.name,
+    });
+  });
+});

@@ -9,7 +9,12 @@ const Project = require("../models/Project");
 //@access Private
 exports.getReviews = asyncHandler(async (req, res, next) => {
   if (req.params.projectId) {
-    const reviews = await Review.find({ project: req.params.projectId });
+    const reviews = await Review.find({
+      project: req.params.projectId,
+    }).populate({
+      path: "user",
+      select: "name email",
+    });
 
     return res.status(200).json({
       success: true,

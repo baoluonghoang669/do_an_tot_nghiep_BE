@@ -2,88 +2,93 @@ const mongoose = require("mongoose");
 const slugify = require("slugify");
 const geocoder = require("../utils/geocoder");
 
-const ProjectSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: [true, "Please add a name"],
-    unique: true,
-    trim: true,
-    maxLength: [50, "Name can not be more than 50 characters"],
-  },
-  slug: String,
-  photo: {
-    type: String,
-    default: "no-photo.jpg",
-  },
-  description: {
-    type: String,
-    required: [true, "Please add a description"],
-    maxLength: [1000, "Description can not be more than 1000 characters"],
-  },
-  averageRating: {
-    type: Number,
-    min: [1, "Rating must be at least 1"],
-    max: [10, "Rating must can not be more than 10"],
-  },
-  cost: {
-    type: Number,
-    min: [1, "Cost must be at least 1"],
-  },
-  address: {
-    type: String,
-    required: [true, "Please add a address"],
-  },
-  location: {
-    //GeoJSON Point
-    type: {
+const ProjectSchema = new mongoose.Schema(
+  {
+    name: {
       type: String,
-      enum: ["Point"],
+      required: [true, "Please add a name"],
+      unique: true,
+      trim: true,
+      maxLength: [50, "Name can not be more than 50 characters"],
     },
-    coordinates: {
-      type: [Number],
-      index: "2dsphere",
+    slug: String,
+    photo: {
+      type: String,
+      default: "no-photo.jpg",
     },
-    formattedAddress: String,
-    street: String,
-    city: String,
-    state: String,
-    zipcode: String,
-    country: String,
+    description: {
+      type: String,
+      required: [true, "Please add a description"],
+      maxLength: [1000, "Description can not be more than 1000 characters"],
+    },
+    averageRating: {
+      type: Number,
+      min: [1, "Rating must be at least 1"],
+      max: [10, "Rating must can not be more than 10"],
+    },
+    cost: {
+      type: Number,
+      min: [1, "Cost must be at least 1"],
+    },
+    address: {
+      type: String,
+      required: [true, "Please add a address"],
+    },
+    location: {
+      //GeoJSON Point
+      type: {
+        type: String,
+        enum: ["Point"],
+      },
+      coordinates: {
+        type: [Number],
+        index: "2dsphere",
+      },
+      formattedAddress: String,
+      street: String,
+      city: String,
+      state: String,
+      zipcode: String,
+      country: String,
+    },
+    architecture: {
+      type: String,
+      required: [true, "Please add a architecture"],
+      trim: true,
+      maxLength: [50, "Architecture can not be more than 50 characters"],
+    },
+    client: {
+      type: String,
+      required: [true, "Please add a client"],
+      trim: true,
+      maxLength: [50, "Client can not be more than 50 characters"],
+    },
+    completeDay: {
+      type: Date,
+      default: Date.now,
+    },
+    isBooked: {
+      type: Boolean,
+      default: false,
+    },
+    area: {
+      type: Number,
+    },
+    createdAt: {
+      type: Date,
+      default: Date.now,
+    },
+    categories: {
+      type: mongoose.Schema.ObjectId,
+      ref: "Category",
+      required: true,
+    },
   },
-  architecture: {
-    type: String,
-    required: [true, "Please add a architecture"],
-    trim: true,
-    maxLength: [50, "Architecture can not be more than 50 characters"],
-  },
-  client: {
-    type: String,
-    required: [true, "Please add a client"],
-    trim: true,
-    maxLength: [50, "Client can not be more than 50 characters"],
-  },
-  completeDay: {
-    type: Date,
-    default: Date.now,
-  },
-  isBooked: {
-    type: Boolean,
-    default: false,
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
-  categories: {
-    type: mongoose.Schema.ObjectId,
-    ref: "Category",
-    required: true,
-  },
-},
-{
-  toJSON: { virtuals: true },
-  toObject: { virtuals: true },
-});
+  {
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true },
+  }
+);
 
 //Create project slug from the name
 ProjectSchema.pre("save", function (next) {
