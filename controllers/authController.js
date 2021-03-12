@@ -30,7 +30,13 @@ exports.login = asyncHandler(async (req, res, next) => {
     return next(new ErrorResponse("Invalid credentials"), 401);
   }
 
-  sendTokenResponse(user, 200, res);
+  const token = user.getSignJwtToken();
+
+  res.status(200).cookie("token", token).json({
+    success: true,
+    role: user.role,
+    token,
+  });
 });
 
 //@desc Register
@@ -44,7 +50,13 @@ exports.register = asyncHandler(async (req, res, next) => {
     password,
   });
 
-  sendTokenResponse(user, 200, res);
+  const token = user.getSignJwtToken();
+
+  res.status(200).cookie("token", token).json({
+    success: true,
+    role: user.role,
+    token,
+  });
 });
 
 //@desc Get current logged in user
@@ -150,8 +162,8 @@ exports.logout = asyncHandler(async (req, res, next) => {
 exports.updateDetails = asyncHandler(async (req, res, next) => {
   const fieldsToUpdate = {
     name: req.body.name,
-    email: req.body.email,
     city: req.body.city,
+    country: req.body.country,
     address: req.body.address,
     phone: req.body.phone,
     avatar: req.body.avatar,
