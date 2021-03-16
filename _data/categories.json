@@ -1,20 +1,20 @@
 [
   {
     "_id": "5d725a4a7b292f5f8ceff782",
+    "image": "http://paul-themes.com/html/intria/intria-demo/intria/light/img/icon/spec-d-1.png",
     "name": "Hotel",
-    "image": "",
     "description": "Inter’s singular aim is to design the best buildings, places and spaces in the world. A central part of this is providing the complete design of buildings across a range of sectors."
   },
   {
     "_id": "5d725a4a7b292f5f8ceff783",
+    "image": "http://paul-themes.com/html/intria/intria-demo/intria/light/img/icon/spec-d-2.png",
     "name": "Villa",
-    "image": "",
     "description": "We offer a fully integrated service that complements the overarching architectural concept, ensuring each project is finished to a high level of quality and detail."
   },
   {
     "_id": "5d725a4a7b292f5f8ceff784",
+    "image": "http://paul-themes.com/html/intria/intria-demo/intria/light/img/icon/spec-d-3.png",
     "name": "Normal Home",
-    "image": "",
     "description": "Working with client and community, we deliver masterplans that create vibrant new places and spaces, attract people, and encourage investment through popularity and increased activity."
   }
 ]

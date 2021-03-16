@@ -28,6 +28,7 @@ const projectsRoutes = require("./routes/projects");
 const categoriesRoutes = require("./routes/categories");
 const usersRoutes = require("./routes/users");
 const reviewsRoutes = require("./routes/reviews");
+const messagesRoutes = require("./routes/messages");
 
 //Body parser
 app.use(express.json());
@@ -71,6 +72,7 @@ app.use("/api/v1/projects", projectsRoutes);
 app.use("/api/v1/categories", categoriesRoutes);
 app.use("/api/v1/users", usersRoutes);
 app.use("/api/v1/reviews", reviewsRoutes);
+app.use("/api/v1/messages", messagesRoutes);
 
 //Handle errors
 app.use(errorHandler);
