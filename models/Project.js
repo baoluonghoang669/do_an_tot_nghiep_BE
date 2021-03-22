@@ -67,10 +67,6 @@ const ProjectSchema = new mongoose.Schema(
       type: Date,
       default: Date.now,
     },
-    isBooked: {
-      type: Boolean,
-      default: false,
-    },
     area: {
       type: Number,
     },

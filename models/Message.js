@@ -15,10 +15,18 @@ const MessageSchema = new mongoose.Schema({
       "Please add a valid email",
     ],
   },
+  phone: {
+    type: Number,
+    default: "",
+  },
   message: {
     type: String,
     required: [true, "Please add a message"],
     maxLength: [1000, "Message can not be more than 1000 characters"],
+  },
+  isContacted: {
+    type: Boolean,
+    default: false,
   },
   createdAt: {
     type: Date,

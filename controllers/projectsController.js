@@ -19,7 +19,7 @@ exports.getProjects = asyncHandler(async (req, res, next) => {
 
     return res.status(200).json({
       success: true,
-      cout: project.length,
+      count: project.length,
       data: project,
     });
   } else {

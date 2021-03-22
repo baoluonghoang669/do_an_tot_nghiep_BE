@@ -35,6 +35,7 @@ exports.login = asyncHandler(async (req, res, next) => {
   res.status(200).cookie("token", token).json({
     success: true,
     role: user.role,
+    idUser: user._id,
     token,
   });
 });
@@ -55,6 +56,7 @@ exports.register = asyncHandler(async (req, res, next) => {
   res.status(200).cookie("token", token).json({
     success: true,
     role: user.role,
+    idUser: user._id,
     token,
   });
 });
@@ -100,14 +102,12 @@ exports.forgotPassword = asyncHandler(async (req, res, next) => {
       message,
     });
 
-    res
-      .status(200)
-      .json({
-        success: true,
-        data: "Email sent",
-        url: resetUrl,
-        resetToken: resetToken,
-      });
+    res.status(200).json({
+      success: true,
+      data: "Email sent",
+      url: resetUrl,
+      resetToken: resetToken,
+    });
   } catch (error) {
     console.log(error);
     user.resetPasswordToken = undefined;
