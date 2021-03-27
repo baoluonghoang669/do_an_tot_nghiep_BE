@@ -66,7 +66,7 @@ exports.register = asyncHandler(async (req, res, next) => {
 //@access Public
 exports.getMe = asyncHandler(async (req, res, next) => {
   const user = await User.findById(req.user.id);
-
+  user.avatar = process.env.BASE_URL_PUBLIC + user.avatar;
   res.status(200).json({
     success: true,
     data: user,
@@ -277,7 +277,7 @@ exports.uploadAvatar = asyncHandler(async (req, res, next) => {
 
     res.status(200).json({
       success: true,
-      data: file.name,
+      data: process.env.BASE_URL_PUBLIC + file.name,
     });
   });
 });
