@@ -169,11 +169,12 @@ exports.logout = asyncHandler(async (req, res, next) => {
 exports.updateDetails = asyncHandler(async (req, res, next) => {
   const fieldsToUpdate = {
     name: req.body.name,
+    email: req.body.email,
     city: req.body.city,
     country: req.body.country,
+    birthday: req.body.birthday,
     address: req.body.address,
     phone: req.body.phone,
-    avatar: req.body.avatar,
   };
 
   const user = await User.findByIdAndUpdate(req.user.id, fieldsToUpdate, {

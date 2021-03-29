@@ -164,7 +164,7 @@ exports.projectPhotoUpload = asyncHandler(async (req, res, next) => {
 
     res.status(200).json({
       success: true,
-      data: file.name,
+      data: process.env.BASE_URL_PUBLIC + file.name,
     });
   });
 });

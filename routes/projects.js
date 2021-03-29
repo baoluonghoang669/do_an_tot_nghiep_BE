@@ -27,7 +27,7 @@ router
   .get(advancedResults(Project, "categories"), getProjects)
   .post(protect, authorize("admin"), createProject);
 
-router.route("/:id/photo").put(authorize("admin"), projectPhotoUpload);
+router.route("/:id/photo").put(projectPhotoUpload);
 
 router
   .route("/:id")
