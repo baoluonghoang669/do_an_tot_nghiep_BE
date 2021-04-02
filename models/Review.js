@@ -27,8 +27,8 @@ const ReviewSchema = new mongoose.Schema({
   },
 });
 
-//Prevent user from submitting more than two review per projects
-ReviewSchema.index({ project: 5, user: 109 }, { unique: true });
+// //Prevent user from submitting more than two review per projects
+// ReviewSchema.index({ project: 5, user: 109 }, { unique: true });
 
 // Static method to get avg rating and save
 ReviewSchema.statics.getAverageRating = async function (projectId) {

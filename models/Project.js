@@ -28,6 +28,7 @@ const ProjectSchema = new mongoose.Schema(
     },
     cost: {
       type: Number,
+      required: [true, "Please add a cost"],
       min: [1, "Cost must be at least 1"],
     },
     address: {
@@ -69,6 +70,7 @@ const ProjectSchema = new mongoose.Schema(
     },
     area: {
       type: Number,
+      required: [true, "Please add a area"],
     },
     createdAt: {
       type: Date,

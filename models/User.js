@@ -8,6 +8,7 @@ const UserSchema = new mongoose.Schema({
     type: String,
     default: "",
     maxLength: [50, "Name can not be more than 50 characters"],
+    required: [true, "Please add a name"],
   },
   email: {
     type: String,
@@ -16,26 +17,32 @@ const UserSchema = new mongoose.Schema({
       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
       "Please add a valid email",
     ],
+    required: [true, "Please add a email"],
   },
   birthday: {
     type: Date,
     default: Date.now,
+    required: [true, "Please add a birthday"],
   },
   city: {
     type: String,
     default: "",
+    required: [true, "Please add a city"],
   },
   country: {
     type: String,
     default: "",
+    required: [true, "Please add a country"],
   },
   address: {
     type: String,
     default: "",
+    required: [true, "Please add a address"],
   },
   phone: {
     type: Number,
     default: "",
+    required: [true, "Please add a phone"],
   },
   avatar: {
     type: String,
@@ -45,6 +52,7 @@ const UserSchema = new mongoose.Schema({
     type: String,
     enum: ["user", "admin"],
     default: "user",
+    required: [true, "Please add a role"],
   },
   token: String,
   password: {
