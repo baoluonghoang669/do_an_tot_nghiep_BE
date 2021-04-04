@@ -64,6 +64,9 @@ const ProjectSchema = new mongoose.Schema(
       trim: true,
       maxLength: [50, "Client can not be more than 50 characters"],
     },
+    relatedPhoto: {
+      type: Array,
+    },
     completeDay: {
       type: Date,
       default: Date.now,

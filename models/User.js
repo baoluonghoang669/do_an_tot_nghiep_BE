@@ -8,7 +8,7 @@ const UserSchema = new mongoose.Schema({
     type: String,
     default: "",
     maxLength: [50, "Name can not be more than 50 characters"],
-    required: [true, "Please add a name"],
+    // required: [true, "Please add a name"],
   },
   email: {
     type: String,
@@ -22,27 +22,27 @@ const UserSchema = new mongoose.Schema({
   birthday: {
     type: Date,
     default: Date.now,
-    required: [true, "Please add a birthday"],
+    // required: [true, "Please add a birthday"],
   },
   city: {
     type: String,
     default: "",
-    required: [true, "Please add a city"],
+    // required: [true, "Please add a city"],
   },
-  country: {
+  province: {
     type: String,
     default: "",
-    required: [true, "Please add a country"],
+    // required: [true, "Please add a province"],
   },
   address: {
     type: String,
     default: "",
-    required: [true, "Please add a address"],
+    // required: [true, "Please add a address"],
   },
   phone: {
     type: Number,
     default: "",
-    required: [true, "Please add a phone"],
+    // required: [true, "Please add a phone"],
   },
   avatar: {
     type: String,
