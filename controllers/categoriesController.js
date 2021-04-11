@@ -1,6 +1,7 @@
 const Category = require("../models/Category");
 const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
+const ExcelJs = require("exceljs");
 
 //@desc Get all categories
 //@route Get /api/v1/categories
@@ -83,4 +84,69 @@ exports.deleteCategory = asyncHandler(async (req, res, next) => {
     success: true,
     data: {},
   });
+});
+
+//@desc Export excel
+//@route Get /api/v1/categories/export
+//@access Private
+exports.exportAllExcels = asyncHandler(async (req, res, next) => {
+  try {
+    const categories = await Category.find();
+    const workbook = new ExcelJs.Workbook();
+    const worksheet = workbook.addWorksheet("My Reviews");
+    worksheet.columns = [
+      { header: "_id", key: "_id", width: 25 },
+      { header: "name", key: "name", width: 25 },
+      { header: "image", key: "image", width: 25 },
+      { header: "description", key: "description", width: 25 },
+      { header: "createdAt", key: "createdAt", width: 25 },
+    ];
+    categories.forEach((category) => {
+      worksheet.addRow(category);
+    });
+    worksheet.getRow(1).eachCell((cell) => {
+      cell.font = { bold: true };
+    });
+    await workbook.xlsx.writeFile(
+      `${process.env.FILE_UPLOAD_PATH}/categories.csv`
+    );
+    res.download(`${process.env.FILE_UPLOAD_PATH}/categories.csv`);
+  } catch (e) {
+    res.status(500).send(e);
+  }
+});
+//@desc Export excel
+//@route Get /api/v1/categories/export/:id
+//@access Private
+exports.exportExcel = asyncHandler(async (req, res, next) => {
+  try {
+    const categories = await Category.findById(req.params.id);
+    if (!categories) {
+      return next(
+        new ErrorResponse(`Category not found with id of ${req.params.id}`),
+        404
+      );
+    }
+    const workbook = new ExcelJs.Workbook();
+    const worksheet = workbook.addWorksheet(`Review_${req.params.id}`);
+    worksheet.columns = [
+      { header: "_id", key: "_id", width: 25 },
+      { header: "name", key: "name", width: 25 },
+      { header: "image", key: "image", width: 25 },
+      { header: "description", key: "description", width: 25 },
+      { header: "createdAt", key: "createdAt", width: 25 },
+    ];
+    worksheet.addRow(categories);
+    worksheet.getRow(1).eachCell((cell) => {
+      cell.font = { bold: true };
+    });
+    await workbook.xlsx.writeFile(
+      `${process.env.FILE_UPLOAD_PATH}/category_${req.params.id}.csv`
+    );
+    return res.download(
+      `${process.env.FILE_UPLOAD_PATH}/category_${req.params.id}.csv`
+    );
+  } catch (e) {
+    res.status(500).send(e);
+  }
 });

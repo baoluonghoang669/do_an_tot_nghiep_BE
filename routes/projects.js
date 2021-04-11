@@ -6,6 +6,8 @@ const {
   updateProject,
   deleteProject,
   projectPhotoUpload,
+  exportAllExcels,
+  exportExcel
 } = require("../controllers/projectsController");
 
 const Project = require("../models/Project");
@@ -28,6 +30,8 @@ router
   .post(protect, authorize("admin"), createProject);
 
 router.route("/:id/photo").put(projectPhotoUpload);
+router.route("/export").get(exportAllExcels);
+router.route("/export/:id").get(exportExcel);
 
 router
   .route("/:id")

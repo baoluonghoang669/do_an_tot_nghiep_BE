@@ -3,6 +3,7 @@ const Project = require("../models/Project");
 const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
 const Category = require("../models/Category");
+const ExcelJs = require("exceljs");
 
 //@desc Get all projects
 //@route Get /api/v1/projects
@@ -14,7 +15,7 @@ exports.getProjects = asyncHandler(async (req, res, next) => {
     const project = await Project.find({
       categories: req.params.categoriesId,
     }).populate({
-      path: "reviews",
+      path: "projects",
     });
 
     return res.status(200).json({
@@ -167,4 +168,92 @@ exports.projectPhotoUpload = asyncHandler(async (req, res, next) => {
       data: process.env.BASE_URL_PUBLIC + file.name,
     });
   });
+});
+
+//@desc Export excel
+//@route Get /api/v1/projects/export
+//@access Private
+exports.exportAllExcels = asyncHandler(async (req, res, next) => {
+  try {
+    const projects = await Project.find();
+    const workbook = new ExcelJs.Workbook();
+    const worksheet = workbook.addWorksheet("My Projects");
+    worksheet.columns = [
+      { header: "_id", key: "_id", width: 30 },
+      { header: "name", key: "name", width: 30 },
+      { header: "slug", key: "slug", width: 30 },
+      { header: "photo", key: "photo", width: 30 },
+      { header: "description", key: "description", width: 30 },
+      { header: "averageRating", key: "averageRating", width: 30 },
+      { header: "cost", key: "cost", width: 30 },
+      { header: "address", key: "address", width: 30 },
+      { header: "location", key: "location", width: 30 },
+      { header: "architecture", key: "architecture", width: 30 },
+      { header: "client", key: "client", width: 30 },
+      { header: "relatedPhoto", key: "relatedPhoto", width: 30 },
+      { header: "completeDay", key: "completeDay", width: 30 },
+      { header: "relatedPhoto", key: "relatedPhoto", width: 30 },
+      { header: "categories", key: "categories", width: 30 },
+      { header: "createdAt", key: "createdAt", width: 30 },
+    ];
+    projects.forEach((project) => {
+      worksheet.addRow(project);
+    });
+    worksheet.getRow(1).eachCell((cell) => {
+      cell.font = { bold: true };
+    });
+    await workbook.xlsx.writeFile(
+      `${process.env.FILE_UPLOAD_PATH}/projects.csv`
+    );
+    res.download(`${process.env.FILE_UPLOAD_PATH}/projects.csv`);
+  } catch (e) {
+    res.status(500).send(e);
+  }
+});
+
+//@desc Export excel
+//@route Get /api/v1/projects/export/:id
+//@access Private
+exports.exportExcel = asyncHandler(async (req, res, next) => {
+  try {
+    const project = await Project.findById(req.params.id);
+    if (!project) {
+      return next(
+        new ErrorResponse(`Project not found with id of ${req.params.id}`),
+        404
+      );
+    }
+    const workbook = new ExcelJs.Workbook();
+    const worksheet = workbook.addWorksheet(`Project_${req.params.id}`);
+    worksheet.columns = [
+      { header: "_id", key: "_id", width: 30 },
+      { header: "name", key: "name", width: 30 },
+      { header: "slug", key: "slug", width: 30 },
+      { header: "photo", key: "photo", width: 30 },
+      { header: "description", key: "description", width: 30 },
+      { header: "averageRating", key: "averageRating", width: 30 },
+      { header: "cost", key: "cost", width: 30 },
+      { header: "address", key: "address", width: 30 },
+      { header: "location", key: "location", width: 30 },
+      { header: "architecture", key: "architecture", width: 30 },
+      { header: "client", key: "client", width: 30 },
+      { header: "relatedPhoto", key: "relatedPhoto", width: 30 },
+      { header: "completeDay", key: "completeDay", width: 30 },
+      { header: "relatedPhoto", key: "relatedPhoto", width: 30 },
+      { header: "categories", key: "categories", width: 30 },
+      { header: "createdAt", key: "createdAt", width: 30 },
+    ];
+    worksheet.addRow(project);
+    worksheet.getRow(1).eachCell((cell) => {
+      cell.font = { bold: true };
+    });
+    await workbook.xlsx.writeFile(
+      `${process.env.FILE_UPLOAD_PATH}/project_${req.params.id}.csv`
+    );
+    return res.download(
+      `${process.env.FILE_UPLOAD_PATH}/project_${req.params.id}.csv`
+    );
+  } catch (e) {
+    res.status(500).send(e);
+  }
 });

@@ -2,6 +2,7 @@ const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
 const Review = require("../models/Review");
 const Project = require("../models/Project");
+const ExcelJs = require("exceljs");
 
 //@desc Get all reviews
 //@route Get /api/v1/reviews
@@ -125,4 +126,70 @@ exports.deleteReview = asyncHandler(async (req, res, next) => {
     success: true,
     data: {},
   });
+});
+
+//@desc Export excel
+//@route Get /api/v1/reviews/export
+//@access Private
+exports.exportAllExcels = asyncHandler(async (req, res, next) => {
+  try {
+    const reviews = await Review.find();
+    const workbook = new ExcelJs.Workbook();
+    const worksheet = workbook.addWorksheet("My Reviews");
+    worksheet.columns = [
+      { header: "_id", key: "_id", width: 25 },
+      { header: "comment", key: "comment", width: 25 },
+      { header: "rating", key: "rating", width: 25 },
+      { header: "project", key: "project", width: 25 },
+      { header: "user", key: "user", width: 25 },
+      { header: "createdAt", key: "createdAt", width: 25 },
+    ];
+    reviews.forEach((review) => {
+      worksheet.addRow(review);
+    });
+    worksheet.getRow(1).eachCell((cell) => {
+      cell.font = { bold: true };
+    });
+    await workbook.xlsx.writeFile(
+      `${process.env.FILE_UPLOAD_PATH}/reviews.csv`
+    );
+    res.download(`${process.env.FILE_UPLOAD_PATH}/reviews.csv`);
+  } catch (e) {
+    res.status(500).send(e);
+  }
+});
+//@desc Export excel
+//@route Get /api/v1/reviews/export/:id
+//@access Private
+exports.exportExcel = asyncHandler(async (req, res, next) => {
+  try {
+    const review = await Review.findById(req.params.id);
+    if (!review) {
+      return next(
+        new ErrorResponse(`Review not found with id of ${req.params.id}`),
+        404
+      );
+    }
+    const workbook = new ExcelJs.Workbook();
+    const worksheet = workbook.addWorksheet(`Review_${req.params.id}`);
+    worksheet.columns = [
+      { header: "_id", key: "_id", width: 25 },
+      { header: "comment", key: "comment", width: 25 },
+      { header: "rating", key: "rating", width: 25 },
+      { header: "project", key: "project", width: 25 },
+      { header: "createdAt", key: "createdAt", width: 25 },
+    ];
+    worksheet.addRow(review);
+    worksheet.getRow(1).eachCell((cell) => {
+      cell.font = { bold: true };
+    });
+    await workbook.xlsx.writeFile(
+      `${process.env.FILE_UPLOAD_PATH}/review_${req.params.id}.csv`
+    );
+    return res.download(
+      `${process.env.FILE_UPLOAD_PATH}/review_${req.params.id}.csv`
+    );
+  } catch (e) {
+    res.status(500).send(e);
+  }
 });

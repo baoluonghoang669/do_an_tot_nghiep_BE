@@ -5,6 +5,8 @@ const {
   getReview,
   updateReview,
   deleteReview,
+  exportAllExcels,
+  exportExcel
 } = require("../controllers/reviewsController");
 
 const Review = require("../models/Review");
@@ -24,6 +26,9 @@ router
     getReviews
   )
   .post(protect, authorize("user", "admin"), addReview);
+
+router.route("/export").get(exportAllExcels);
+router.route("/export/:id").get(exportExcel);
 
 router
   .route("/:id")

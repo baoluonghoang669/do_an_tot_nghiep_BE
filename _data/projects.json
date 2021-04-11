@@ -74,7 +74,7 @@
   {
     "_id": "5d713995b721c3bb38c1f5d4",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà biệt thự phố núi",
+    "name": "Nhà biệt thự Intercol",
     "description": "Mẫu nhà lô 3 tầng nhà anh Huân được thiết kế theo phong cách hiện đại. Ngôi nhà được phối hợp giữa màu sơn trắng sữa, màu ghi đậm và điểm xuyết thêm màu nâu của gạch ốp tường tạo nên một tổng thể hài hòa về màu sắc, khiến ngôi nhà trở nên thanh lịch, trang nhã.",
     "address": "Nằm gần biển núi Ngũ Hành Sơn",
     "architecture": "Nguyễn Văn Lập",
@@ -92,7 +92,7 @@
   {
     "_id": "5d713995b721c3bb38c1f5d5",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà biệt thự cổ điển",
+    "name": "Nhà biệt thự cổ",
     "description": "Mẫu nhà lô 3 tầng nhà anh Huân được thiết kế theo phong cách hiện đại. Ngôi nhà được phối hợp giữa màu sơn trắng sữa, màu ghi đậm và điểm xuyết thêm màu nâu của gạch ốp tường tạo nên một tổng thể hài hòa về màu sắc, khiến ngôi nhà trở nên thanh lịch, trang nhã.",
     "address": "Nằm gần núi Ngũ Hành Sơn",
     "architecture": "Nguyễn Văn Lập",
@@ -110,7 +110,7 @@
   {
     "_id": "5d713995b721c3bb38c1f5d6",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà thường ở gần biển",
+    "name": "Nhà cấp 3 sang trọng",
     "description": "Ngôi nhà hấp dẫn ở hình khối vô cùng phóng khoáng với cách sắp xếp độc đáo của các kts 902 Studio mang đến sự năng động, tươi trẻ và mới mẻ chỉ bằng những khối vuông vắn, mạnh mẽ.Không khó để nhận thấy rằng hầu hết mọi ánh mắt đều bị thu hút bởi màu xanh của khóm cây tại ban công tầng 2 của ngôi nhà.",
     "address": "Nằm gần biển Phạm Văn Đồng",
     "architecture": "Nguyễn Sế",
@@ -146,7 +146,7 @@
   {
     "_id": "5d713995b721c3bb38c1f5d8",
     "user": "5d7a514b5d2c12c7449be042",
-    "name": "Khách sạn hoàng kim giáp",
+    "name": "Khách sạn Phoenix",
     "description": "Một góc nhìn khác cận cảnh hơn của công trình. Diện tích sân vườn 70m2 xanh mát với đang dạng chủng loại cây cối từ thảm cỏ xanh tới cây lấy bóng mát. Sân công trình được lát đá tự nhiên giúp biệt thự tăng hơn tính xanh, thân thiện cùng môi trường và giải tỏa cái nóng vào mùa hè.",
     "address": "K12 Phan Thanh",
     "architecture": "Nguyễn Đình Chiểu",
@@ -218,7 +218,7 @@
   {
     "_id": "5d713995b721c3bb38c1f512",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 ĐN",
+    "name": "Nhà cấp 4 tinh tế",
     "description": "Chúng tôi xin giới thiệu các bạn những mẫu nhà cấp 4 gác lửng giá rẻ đẹp. Được ưa chuộng hiện nay với các kiểu 4x16m, 5x20m. Với các phong cách hiện đại hay đơn giản, mời các bạn cùng chúng tôi. Điểm qua những mẫu nhà cấp 4 giá rẻ, nhà lửng đẹp. Với những kiểu nhà đẹp đơn giản, những ngôi nhà cấp 4 đẹp như vậy nhé.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -236,7 +236,7 @@
   {
     "_id": "5d713995b721c3bb38c1f513",
     "user": "5d7a514b5d2c12c7449be042",
-    "name": "Nhà cấp 4 QN",
+    "name": "Nhà cấp 4 Thanh Khê",
     "description": "Thiết kế mẫu nhà cấp 4 có gác lửng giá rẻ trên diện tích 5×20. Có chi phí xây dựng giá rẻ đẹp, phù hợp với nhu cầu xây dựng nhà ở ngày một tăng cao. Của người dân đặc biệt đối với những gia đình có thu nhập trung bình. Và thấp với nhiều các kiểu nhà cấp 4 có gác lửng.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Bảo",
@@ -254,7 +254,7 @@
   {
     "_id": "5d713995b721c3bb38c1f514",
     "user": "5d7a514b5d2c12c7449be045",
-    "name": "Nhà cấp 4 PT",
+    "name": "Nhà cấp 3 cao cấp",
     "description": "Việc xây mẫu nhà cấp 4 có gác lửng 4×16 sẽ là lựa chọn vô cùng hợp lý nó có quy mô nhà nhỏ giá rẻ vì không chỉ vì có nguồn chi phí giá rẻ mà thể hiện sự tỉ mĩ của bạn trong việc chọn và xây nhà với không gian sống rộng rãi, thoải mái mà lại là mẫu nhà rẻ đẹp phổ biến với nhà cấp 4 gác lửng đẹp giá rẻ",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -272,7 +272,7 @@
   {
     "_id": "5d713995b721c3bb38c1f515",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 TY",
+    "name": "Nhà cấp 4 cao cấp",
     "description": "Việc lựa chọn thiết kế mẫu nhà cấp 4 có gác lửng trên diện tích đất 4×16 là khá phổ biến đối với phần đông gia đình hiện nay, bởi ngôi nhà theo thiết kế này sẽ tiết kiệm được phần lớn chi phí xây dựng mẫu nhà giá rẻ cũng như sẽ đáp ứng được không gian sống thoải mái, dễ chịu cho gia đình bạn với nhà cấp 4 60m2 hoặc thiết kế nhà cấp 4 có gác lửng 50m2 nhà gác lửng nhỏ đẹp hơn",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Thành Viên",
@@ -290,7 +290,7 @@
   {
     "_id": "5d713995b721c3bb38c1f516",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 HY",
+    "name": "Nhà hiện đại",
     "description": "Việc lựa chọn thiết kế mẫu nhà cấp 4 có gác lửng trên diện tích đất 4×16 là khá phổ biến đối với phần đông gia đình hiện nay, bởi ngôi nhà theo thiết kế này sẽ tiết kiệm được phần lớn chi phí xây dựng mẫu nhà giá rẻ cũng như sẽ đáp ứng được không gian sống thoải mái, dễ chịu cho gia đình bạn với nhà cấp 4 60m2 hoặc thiết kế nhà cấp 4 có gác lửng 50m2 nhà gác lửng nhỏ đẹp hơn",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -308,7 +308,7 @@
   {
     "_id": "5d713995b721c3bb38c1f517",
     "user": "5d7a514b5d2c12c7449be043",
-    "name": "Nhà cấp 4 HJ",
+    "name": "Nhà thường phong cách cổ điển",
     "description": "Việc lựa chọn thiết kế mẫu nhà cấp 4 có gác lửng trên diện tích đất 4×16 là khá phổ biến đối với phần đông gia đình hiện nay, bởi ngôi nhà theo thiết kế này sẽ tiết kiệm được phần lớn chi phí xây dựng mẫu nhà giá rẻ cũng như sẽ đáp ứng được không gian sống thoải mái, dễ chịu cho gia đình bạn với nhà cấp 4 60m2 hoặc thiết kế nhà cấp 4 có gác lửng 50m2 nhà gác lửng nhỏ đẹp hơn",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -326,7 +326,7 @@
   {
     "_id": "5d713995b721c3bb38c1f518",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 YI",
+    "name": "Nhà cấp 4 gác lửng",
     "description": "Hiện nay, không ít gia đình lựa chọn xây dựng nhà cấp 4 có gác lửng. Không chỉ những hộ gia đình ở nông thôn, mà ngay cả. Những gia đình thành thị cũng chuộng mẫu nhà này.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -344,7 +344,7 @@
   {
     "_id": "5d713995b721c3bb38c1f519",
     "user": "5d7a514b5d2c12c7449be045",
-    "name": "Nhà cấp 4 LK",
+    "name": "Nhà độc đáo",
     "description": "Gác lửng, tầng lửng hiện đại hay gác xép là là tầng trung gian giữa các tầng trong một ngôi nhà hoặc tòa nhà, đây cũng một phần trong kiến trúc của ngôi nhà. Thiết kế nhà có gác lửng đẹp vừa giúp tiết kiệm diện tích sinh hoạt cho gia đình bạn vừa tạo nên nét đẹp độc đáo, mới lạ cho ngôi nhà.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -362,7 +362,7 @@
   {
     "_id": "5d713995b721c3bb38c1f520",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 SM",
+    "name": "Nhà cấp 4 tiện lợi",
     "description": "Hiện nay không ít gia đình lựa chọn thiết kế nhà cấp 4 có gác lửng hiện đại cho căn nhà của mình, tận dụng đó làm nơi sinh hoạt chung cho cả gia đình, làm phòng khách, bếp, phòng ăn hay phòng làm việc. Thậm chí nhiều thiết kế gác lửng được sử dụng làm phòng ngủ hay phòng đọc sách rất hợp lý và tiện lợi.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -380,7 +380,7 @@
   {
     "_id": "5d713995b721c3bb38c1f521",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 ST",
+    "name": "Nhà phong cách mới mẻ",
     "description": "Nhằm mang đến cho con người những không gian sống thoải mái nhất. Với các trang thiết bị hiện đại giảm thiểu tối đa kinh phí xây dựng ngày hôm nay chúng tôi mang đến cho các bạn một mẫu nhà cấp 4 gác lửng hiện đại.Có thể nói nó chính là mẫu nhà đại diện mang trong mình sự cải cách của kiến trúc và sự kết tinh của những yếu tố truyền thống. Kết hợp với các yếu tố hiện đại từ đó làm ra các sản phẩm có thể đạt đến độ hoàn hảo.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -398,7 +398,7 @@
   {
     "_id": "5d713995b721c3bb38c1f522",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 HQ",
+    "name": "Nhà thiết kế độc đáo",
     "description": "Trong thiết kế, gác lửng là một diện tích được thiết kế ra để tăng không gian sống cho ngôi nhà. Nhất là những ngôi nhà có diện tích hẹp hoặc bị hạn chế về chiều cao. Không chỉ vậy, gác lửng còn tạo nên tính thẩm mỹ cho ngôi nhà bạn.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -416,7 +416,7 @@
   {
     "_id": "5d713995b721c3bb38c1f548",
     "user": "5d7a514b5d2c12c7449be043",
-    "name": "Nhà cấp 4 MY",
+    "name": "Nhà nhỏ hiện đại",
     "description": "Thiết kế nhà mẫu nhà cấp 4 gác lửng giá rẻ độc đáo về kiến trúc, tùy theo gia chủ mà gác lửng sẽ được thiết kế phá cách, có thể là 1 hay 2 gác lửng với cầu thang xoắn ốc hiện đại… để tạo ra mẫu nhà cấp 4 đẹp giá rẻ. Biến tấu của mẫu nhà có gác lửng trong thiết kế mang đến sự độc đáo tuyệt vời cho căn nhà bạn như những mẫu nhà cấp 4 nhỏ đẹp như này.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -434,7 +434,7 @@
   {
     "_id": "5d713995b721c3bb38c1f523",
     "user": "5d7a514b5d2c12c7449be042",
-    "name": "Nhà cấp 4 HL",
+    "name": "Nhà ở bình dân",
     "description": "So với những thiết kế nhà 2 tầng hay 3 tầng thì hiển nhiên các mẫu nhà có gác lửng, mẫu nhà cấp 4 gác lửng đẹp được xây dựng với kinh phí thấp hơn. Thậm chí, nếu so sánh với nhà 1 tầng, mẫu nhà này cũng có thể được coi là có mức chi phí xây dựng thấp hơn và thiết kế nhà cấp 4 gác lửng đơn giản lạ lẫm hơn.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -470,7 +470,7 @@
   {
     "_id": "5d713995b721c3bb38c1f525",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Loti",
+    "name": "Khách sạn Dragon Phoenix 3",
     "description": "Để tạo đột phá trong phát triển du lịch tại nước nhà. Cũng như các tỉnh lân cận thì ngoài việc tỉnh luôn chú trọng nâng cấp phát triển hạ tầng du lịch. Hiện nay các đơn vị kinh doanh trong lĩnh vực du lịch khách sạn khá nhiều. Khách sạn tân cổ điển được chủ đầu tư chủ động tìm hướng đầu tư đúng chiến lược nhất.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -488,7 +488,7 @@
   {
     "_id": "5d713995b721c3bb38c1f526",
     "user": "5d7a514b5d2c12c7449be045",
-    "name": "Khách sạn Munica",
+    "name": "Khách sạn Munication",
     "description": "Các mẫu thiết kế kiến trúc khách sạn đẹp và sang trọng thực sự quan trọng và cần thiết với các chủ đầu tư kinh doanh khách sạn. Và đối với chính các khách hàng lựa chọn khách sạn để dùng chân nghỉ dưỡng cũng dựa vào đánh giá khách quan đối với khách sạn đó. Thiết kế  khách sạn với không gian độc đáo sẽ là điểm nhấn tạo được ấn tượng, cảm giác mới lạ và thoải mái đến với khách hàng.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -506,7 +506,7 @@
   {
     "_id": "5d713995b721c3bb38c1f527",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Lazada",
+    "name": "Khách sạn của Troc",
     "description": "Một khách sạn được xây dựng với sự tư vấn, giúp đỡ của đội ngũ chuyên gia thiết kế  giỏi công ty Troc Studio sẽ không làm quý chủ đầu tư thất vọng với thành quả mình nhận được.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -524,7 +524,7 @@
   {
     "_id": "5d713995b721c3bb38c1f528",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn MissUniverse",
+    "name": "Khách sạn Universe",
     "description": "Đối với nhu cầu về nhà đất ở Việt Nam, thịnh hành nhất hiện nay có khá nhiều kiểu kiến trúc. Có người thích mẫu khách sạn vườn đẹp với nhiều cảnh quan cây cối xung quanh, kết hợp giữa môi trường và không gian sống. Mang lại sự hài hòa chung về phong cách sống và tính nhân văn. có người thích khách sạn theo phong cách cổ điển để lưu lại thời gian một thời đã qua. Kiến An Vinh là một công ty chuyên thiết kế khách sạn bán cổ điển mang lại phong cách hiện đại lẫn cổ điển.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -560,7 +560,7 @@
   {
     "_id": "5d713995b721c3bb38c1f530",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Department",
+    "name": "Khách sạn Thăng Long",
     "description": "Thiết kế khách sạn – thiết kế khách sạn đẹp với nội thất hiện đại đó là một trong những chuyên ngành công ty Troc Studio chúng tôi đã và đang thiết kế và thi công tại Thành phố Hồ Chí Minh và các tỉnh thành trên cả nước như Long An, Gia Lai, Kiên Giang , An Giang , Bạc Liêu , Nghệ An , Hà Nội, Thanh Hóa ,…",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -578,7 +578,7 @@
   {
     "_id": "5d713995b721c3bb38c1f531",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Eearth",
+    "name": "Khách sạn hiện đại",
     "description": "Thời nay công nghệ thông tin hiện đại bao nhiêu kinh tế tăng trưởng, thì nhu cầu về cuộc sống của con người cũng tăng cao . Do đó , nhu cầu đi du lịch cũng mỗi ngày một tăng cao trong dịp nghỉ lễ , hè và đặc biệt là dịp tết .Từ đó , dẫn đến một số tỉnh , thành phố có tiềm năng phát triển về ngành du lịch như Nghệ An , Cần Thơ ,Đà lạt, Tp.Hồ Chí Minh ,Vũng tàu, Kiên Giang , ….có nhiều chủ đầu tư kinh doanh khách sạn họ mong muốn tìm được một Kiến Trúc Sư hoặc công ty tư vấn thiết kế để thiết kế khách sạn.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -614,7 +614,7 @@
   {
     "_id": "5d713995b721c3bb38c1f533",
     "user": "5d7a514b5d2c12c7449be042",
-    "name": "Khách sạn Louis",
+    "name": "Khách sạn Louis Tonic",
     "description": "Thiết kế khách sạn cần chú ý vào những qui chuẩn, qui định của đơn vị cấp phép, phòng cháy chữa cháy, tổng cục du lịch và các cơ quan, ban ngành cấp phép để khách sạn được hoạt động. Một KTS giỏi khi thiết kế khách sạn thể hiện qua việc bố trí, sắp xếp các phòng hợp lý, bố trí hệ thống cấp thoát nước, thang bộ, thang máy, hệ thống phòng chông cháy nổ, thoát hiểm, hộp gen kỹ thuật.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -632,7 +632,7 @@
   {
     "_id": "5d713995b721c3bb38c1f534",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Troc",
+    "name": "Khách sạn cổ điển Alex",
     "description": "Bao phủ lên không gian ngoại thất khách sạn tân cổ điển đẹp là gam màu sơn trắng tinh khiết. Nét tân cổ điển thanh thoát làm nổi bật lên những đường phào chỉ đơn giản mà sắc nét. Nổi bật trên nền sơn trắng đó là các khung cửa, ban công, ô văng chất liệu gỗ kính khá tinh tế nhất hiện nay.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -650,7 +650,7 @@
   {
     "_id": "5d713995b721c3bb38c1f535",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Studio",
+    "name": "Khách sạn Cá Lửa",
     "description": "Với các tầng hệ thống nhà khách sạn luôn hiện hữu cho chủ đầu tư. Với sự lặp lại kiến trúc các tầng tạo nên vẻ đẹp đồng đều, cân xứng cho khách sạn 3 sao. Tiền sảng vô cùng sang trọng được thiết kế khá cầu kì với màu sơn vàng đồng nổi bật cho không gian khách sạn. Khu vực tân phú hồ chí minh có một vị trí quan trọng nhất của mẫu thiết kế khách sạn tân cổ điển 3 sao. Bởi đây là nơi đón tiếp khách và từ đây khách hàng sẽ đánh giá cao bởi đa số khách hàng.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -668,7 +668,7 @@
   {
     "_id": "5d713995b721c3bb38c1f536",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Beach",
+    "name": "Khách sạn sang trọng",
     "description": "Thiết kế khách sạn đẹp. Sang trọng đang được giới đầu tư chú trọng đến hình thức kiến trúc ngoại thất cũng như nội thất. Thiết kế khách sạn đẹp đang hướng đến sự phát triển ở những địa điểm du lịch. Với nhu cầu về chất lượng dịch vụ ngày một cao. Của các du khách cũng như sự đòi hỏi của con người. Chủ đầu tư kinh doanh khách sạn luôn rất chú trọng từ ngoại thất đến nội thất bên trong của khách sạn.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -686,7 +686,7 @@
   {
     "_id": "5d713995b721c3bb38c1f537",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Kimmich",
+    "name": "Khách sạn nghệ thuật",
     "description": "Thiết kế khách sạn theo phong cách tây phương luôn ấn tượng bởi sự sang trọng, tiện dụng của nó.Thiết kế giúp các doanh nhân nâng tầm dịch vụ khách sạn chuyên nghiệp của mình Thiết kế khách sạn theo phong cách tây phương luôn ấn tượng bởi sự sang trọng, tiện dụng của nó.Thiết kế giúp các doanh nhân nâng tầm dịch vụ khách sạn chuyên nghiệp của mình. Tại sảnh chính là quầy tiếp tân với những vật dụng văn phòng thể hiện sự chuyên nghiệp.Thiết kế nội thất sảnh đón khách được pha trộn tính nghệ thuật với những bức tranh đen trắng.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -704,7 +704,7 @@
   {
     "_id": "5d713995b721c3bb38c1f538",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Ronaldo",
+    "name": "Khách sạn Mr.Ronaldo",
     "description": "Những mẫu khách sạn đẹp nhiều tầng. Là một trong những mẫu ưa chuộng nhất hiện nay với kiến trúc bán cổ điển. Mẫu được khách hàng tại Kiến An Vinh đánh giá cao về tính thẩm mỹ. Cũng nên độ hoành tráng đồ sộ tại Gia Lai. Những mẫu khách sạn đẹp nhiều tầng là một trong những mẫu ưa chuộng nhất hiện nay với kiến trúc bán cổ điển. Mẫu được khách hàng tại Kiến An Vinh đánh giá cao về tính thẩm mỹ cũng nên độ hoành tráng đồ sộ tại Gia Lai.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -740,7 +740,7 @@
   {
     "_id": "5d713995b721c3bb38c1f540",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự koi",
+    "name": "Biệt thự hồ Koi",
     "description": "Tọa lạc trên khuôn viên đất xấp xỉ 1500m2, biệt thự được xây dựng với diện tích chiếm đất xấp xỉ 300m2,  có 1 tầng hầm và 4 tầng nổi, chứa được 5 phòng ngủ lớn, 1 phòng khách lớn, 1 phòng bếp ăn lớn, 1 phòng thờ lớn, 1 phòng Gymhome, 1 phòng sưu tập đồ chơi lớn, 2 nhà gỗ, 1 hồ nuôi cá Koi.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -776,7 +776,7 @@
   {
     "_id": "5d713995b721c3bb38c1f542",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự Châu Âu 2",
+    "name": "Biệt thự của Troc",
     "description": "Tọa lạc trong khuôn viên 8.000 m2 đất tiếp xúc liền kề với một khu cảng biển nội địa sầm uất có diện tích xấp xỉ 25 ha. Khu nhà dành cho chuyên gia vận hành cảng được chủ đầu tư tin tưởng đặt hàng cho Troc Studio thiết kế với phong cách bán cổ điển cao cấp. Troc Studio muốn chia sẻ đến các bạn các thông tin cơ bản của dự án thiết kế này, để qua đó giúp các bạn hiểu thêm về kinh nghiệm, hiểu thêm về mức độ  uy tín của Troc Studio trong phân khúc thiết kế nhà ở để có thêm cơ sở tin tưởng mà lỡ có làm nhà cũng yên tâm gọi điện cho Troc Studio tư vấn và cung cấp dịch vụ thiết kế, xây dựng, hoàn thiện nội thất cho các bạn.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -830,7 +830,7 @@
   {
     "_id": "5d713995b721c3bb38c1f545",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự rẻ",
+    "name": "Biệt thự rộng rãi",
     "description": "Đây là một dự án có bề ngang 7,5m được các KTS của Louis thiết kế với dáng vẻ bề thế của một căn biệt thự cổ điển nhưng vẫn lấy hết bề ngang của nó để làm nơi ở rộng rãi và an toàn hơn. Qui mô lầu cao của nó gồm có 1 tầng trệt, 1 tầng lầu và 1 tầng áp mái với năng lực cung ứng gồm có 4 phòng ngủ, 1 phòng khách, 1 khu bếp kết hợp được bàn ăn, 1 không gian thờ gia tiên lớn, 1 khu tập Gym tại nhà và 1 khu giặt phơi lớn ",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
@@ -848,7 +848,7 @@
   {
     "_id": "5d713995b721c3bb38c1f546",
     "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự rẻ nhất",
+    "name": "Biệt thự hiện đại",
     "description": "Đây là dự án cải tạo mà Louis được gia chủ giao cho nhiệm vụ thiết kế – thi công trọn gói. Căn biệt thự ban đầu tưởng chừng như rất nguy nga, bề thế nhưng lại tồn tại khá nhiều bất cập, không gian bên trong xuống cấp, nội thất lỗi thời. Hơn ai hết, gia chủ nhận ra điều này từ rất sớm nên mong muốn “hô biến” biệt thự nhà mình để nâng cao chất lượng cuộc sống ngay tại nhà.",
     "address": "K16 Phan Thanh",
     "architecture": "Nguyễn Trung",
