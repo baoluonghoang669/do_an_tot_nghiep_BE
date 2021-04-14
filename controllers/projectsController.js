@@ -203,9 +203,9 @@ exports.exportAllExcels = asyncHandler(async (req, res, next) => {
       cell.font = { bold: true };
     });
     await workbook.xlsx.writeFile(
-      `${process.env.FILE_UPLOAD_PATH}/projects.csv`
+      `${process.env.FILE_UPLOAD_PATH}/projects.xlsx`
     );
-    res.download(`${process.env.FILE_UPLOAD_PATH}/projects.csv`);
+    res.download(`${process.env.FILE_UPLOAD_PATH}/projects.xlsx`);
   } catch (e) {
     res.status(500).send(e);
   }
@@ -248,10 +248,10 @@ exports.exportExcel = asyncHandler(async (req, res, next) => {
       cell.font = { bold: true };
     });
     await workbook.xlsx.writeFile(
-      `${process.env.FILE_UPLOAD_PATH}/project_${req.params.id}.csv`
+      `${process.env.FILE_UPLOAD_PATH}/project_${req.params.id}.xlsx`
     );
     return res.download(
-      `${process.env.FILE_UPLOAD_PATH}/project_${req.params.id}.csv`
+      `${process.env.FILE_UPLOAD_PATH}/project_${req.params.id}.xlsx`
     );
   } catch (e) {
     res.status(500).send(e);

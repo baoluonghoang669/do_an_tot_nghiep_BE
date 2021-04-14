@@ -3,7 +3,7 @@ const asyncHandler = require("../middleware/async");
 const Review = require("../models/Review");
 const Project = require("../models/Project");
 const ExcelJs = require("exceljs");
-
+const readXlsxFile = require("read-excel-file/node");
 //@desc Get all reviews
 //@route Get /api/v1/reviews
 //@route Get /api/v1/projects/:projectId/reviews
@@ -151,13 +151,14 @@ exports.exportAllExcels = asyncHandler(async (req, res, next) => {
       cell.font = { bold: true };
     });
     await workbook.xlsx.writeFile(
-      `${process.env.FILE_UPLOAD_PATH}/reviews.csv`
+      `${process.env.FILE_UPLOAD_PATH}/reviews.xlsx`
     );
-    res.download(`${process.env.FILE_UPLOAD_PATH}/reviews.csv`);
+    res.download(`${process.env.FILE_UPLOAD_PATH}/reviews.xlsx`);
   } catch (e) {
     res.status(500).send(e);
   }
 });
+
 //@desc Export excel
 //@route Get /api/v1/reviews/export/:id
 //@access Private
@@ -184,12 +185,63 @@ exports.exportExcel = asyncHandler(async (req, res, next) => {
       cell.font = { bold: true };
     });
     await workbook.xlsx.writeFile(
-      `${process.env.FILE_UPLOAD_PATH}/review_${req.params.id}.csv`
+      `${process.env.FILE_UPLOAD_PATH}/review_${req.params.id}.xlsx`
     );
     return res.download(
-      `${process.env.FILE_UPLOAD_PATH}/review_${req.params.id}.csv`
+      `${process.env.FILE_UPLOAD_PATH}/review_${req.params.id}.xlsx`
     );
   } catch (e) {
     res.status(500).send(e);
+  }
+});
+//@desc Import excel
+//@route Post /api/v1/reviews/import
+//@access Private
+exports.importExcel = asyncHandler(async (req, res, next) => {
+  const reviews = await Review.find();
+  try {
+    if (req.files == undefined) {
+      res.status(400).json({
+        message: "Please upload an excel file!",
+      });
+    }
+
+    let path = process.env.FILE_UPLOAD_PATH + "/" + req.files.file.name;
+    readXlsxFile(path).then((rows) => {
+      // skip header
+      rows.shift();
+      // let tutorials = [];
+
+      rows.forEach((row) => {
+        let tutorial = {
+          _id: row[0],
+          comment: row[1],
+          rating: row[2],
+          project: row[3],
+          user: row[4],
+          createdAt: row[5],
+        };
+        reviews.push(tutorial);
+      });
+      Review.create(reviews)
+        .then(() => {
+          res.status(200).json({
+            success: true,
+            message: "Import successfully",
+            data: reviews,
+          });
+        })
+        .catch((error) => {
+          res.status(500).send({
+            message: "Fail to import data into database!",
+            error: error.message,
+          });
+        });
+    });
+  } catch (error) {
+    console.log(error);
+    res.status(500).send({
+      message: "Could not upload the file: " + req.files.file.name,
+    });
   }
 });
