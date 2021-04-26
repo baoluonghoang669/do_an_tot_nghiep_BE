@@ -7,7 +7,6 @@ const {
   deleteReview,
   exportAllExcels,
   exportExcel,
-  importExcel,
 } = require("../controllers/reviewsController");
 
 const Review = require("../models/Review");
@@ -15,7 +14,6 @@ const router = express.Router({ mergeParams: true });
 
 //middleware advanced
 const advancedResults = require("../middleware/advancedResults");
-const upload = require("../middleware/upload");
 const { protect, authorize } = require("../middleware/auth");
 
 router
@@ -30,7 +28,6 @@ router
   .post(protect, authorize("user", "admin"), addReview);
 
 router.route("/export").get(exportAllExcels);
-router.route("/import").post(importExcel);
 router.route("/export/:id").get(exportExcel);
 
 router

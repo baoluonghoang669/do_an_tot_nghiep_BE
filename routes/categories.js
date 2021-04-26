@@ -6,7 +6,7 @@ const {
   updateCategory,
   deleteCategory,
   exportAllExcels,
-  exportExcel
+  exportExcel,
 } = require("../controllers/categoriesController");
 
 const Category = require("../models/Category");

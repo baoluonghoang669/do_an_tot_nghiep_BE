@@ -33,25 +33,25 @@ const ProjectSchema = new mongoose.Schema(
     },
     address: {
       type: String,
-      required: [true, "Please add a address"],
+      // required: [true, "Please add a address"],
     },
-    location: {
-      //GeoJSON Point
-      type: {
-        type: String,
-        enum: ["Point"],
-      },
-      coordinates: {
-        type: [Number],
-        index: "2dsphere",
-      },
-      formattedAddress: String,
-      street: String,
-      city: String,
-      state: String,
-      zipcode: String,
-      country: String,
-    },
+    // location: {
+    //   //GeoJSON Point
+    //   type: {
+    //     type: String,
+    //     enum: ["Point"],
+    //   },
+    //   coordinates: {
+    //     type: [Number],
+    //     index: "2dsphere",
+    //   },
+    //   formattedAddress: String,
+    //   street: String,
+    //   city: String,
+    //   state: String,
+    //   zipcode: String,
+    //   country: String,
+    // },
     architecture: {
       type: String,
       required: [true, "Please add a architecture"],
@@ -100,24 +100,24 @@ ProjectSchema.pre("save", function (next) {
 });
 
 //Geocoder && create location field
-ProjectSchema.pre("save", async function (next) {
-  const loc = await geocoder.geocode(this.address);
+// ProjectSchema.pre("save", async function (next) {
+//   const loc = await geocoder.geocode(this.address);
 
-  this.location = {
-    type: "Point",
-    coordinates: [loc[0].longitude, loc[0].latitude],
-    formattedAddress: loc[0].formattedAddress,
-    street: loc[0].streetName,
-    city: loc[0].city,
-    state: loc[0].state,
-    zipcode: loc[0].zipcode,
-    country: loc[0].country,
-  };
+//   this.location = {
+//     type: "Point",
+//     coordinates: [loc[0].longitude, loc[0].latitude],
+//     formattedAddress: loc[0].formattedAddress,
+//     street: loc[0].streetName,
+//     city: loc[0].city,
+//     state: loc[0].state,
+//     zipcode: loc[0].zipcode,
+//     country: loc[0].country,
+//   };
 
-  //Do not save address in
-  this.address = undefined;
-  next();
-});
+//   //Do not save address in
+//   this.address = undefined;
+//   next();
+// });
 
 //Cascade delete reviews when a project is deleted
 ProjectSchema.pre("remove", async function (next) {

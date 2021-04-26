@@ -137,12 +137,10 @@ exports.exportAllExcels = asyncHandler(async (req, res, next) => {
     const workbook = new ExcelJs.Workbook();
     const worksheet = workbook.addWorksheet("My Reviews");
     worksheet.columns = [
-      { header: "_id", key: "_id", width: 25 },
-      { header: "comment", key: "comment", width: 25 },
-      { header: "rating", key: "rating", width: 25 },
-      { header: "project", key: "project", width: 25 },
-      { header: "user", key: "user", width: 25 },
-      { header: "createdAt", key: "createdAt", width: 25 },
+      { header: "Comment", key: "comment", width: 25 },
+      { header: "Rating", key: "rating", width: 25 },
+      { header: "Ralated Projects", key: "project", width: 35 },
+      { header: "UserId", key: "user", width: 35 },
     ];
     reviews.forEach((review) => {
       worksheet.addRow(review);
@@ -174,11 +172,10 @@ exports.exportExcel = asyncHandler(async (req, res, next) => {
     const workbook = new ExcelJs.Workbook();
     const worksheet = workbook.addWorksheet(`Review_${req.params.id}`);
     worksheet.columns = [
-      { header: "_id", key: "_id", width: 25 },
-      { header: "comment", key: "comment", width: 25 },
-      { header: "rating", key: "rating", width: 25 },
-      { header: "project", key: "project", width: 25 },
-      { header: "createdAt", key: "createdAt", width: 25 },
+      { header: "Comment", key: "comment", width: 25 },
+      { header: "Rating", key: "rating", width: 25 },
+      { header: "Related Projects", key: "project", width: 35 },
+      { header: "UserId", key: "user", width: 35 },
     ];
     worksheet.addRow(review);
     worksheet.getRow(1).eachCell((cell) => {
@@ -194,35 +191,29 @@ exports.exportExcel = asyncHandler(async (req, res, next) => {
     res.status(500).send(e);
   }
 });
+
 //@desc Import excel
 //@route Post /api/v1/reviews/import
 //@access Private
 exports.importExcel = asyncHandler(async (req, res, next) => {
   const reviews = await Review.find();
   try {
-    if (req.files == undefined) {
-      res.status(400).json({
-        message: "Please upload an excel file!",
-      });
-    }
-
     let path = process.env.FILE_UPLOAD_PATH + "/" + req.files.file.name;
     readXlsxFile(path).then((rows) => {
-      // skip header
       rows.shift();
-      // let tutorials = [];
-
+      let newTutorial = [];
       rows.forEach((row) => {
         let tutorial = {
-          _id: row[0],
-          comment: row[1],
-          rating: row[2],
-          project: row[3],
-          user: row[4],
-          createdAt: row[5],
+          comment: row[0],
+          rating: row[1],
+          project: row[2],
+          user: row[3],
         };
-        reviews.push(tutorial);
+        newTutorial.push(tutorial);
       });
+      for (let i = 0; i < newTutorial.length; i++) {
+        reviews.push(newTutorial[i]);
+      }
       Review.create(reviews)
         .then(() => {
           res.status(200).json({
@@ -241,7 +232,7 @@ exports.importExcel = asyncHandler(async (req, res, next) => {
   } catch (error) {
     console.log(error);
     res.status(500).send({
-      message: "Could not upload the file: " + req.files.file.name,
+      message: "Could not upload the file: ",
     });
   }
 });
