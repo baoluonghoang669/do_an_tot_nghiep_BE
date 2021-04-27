@@ -12,7 +12,7 @@ const readXlsxFile = require("read-excel-file/node");
 //@access Public
 
 exports.getProjects = asyncHandler(async(req, res, next) => {
-    const { name, description, cost, categories, address } = req.query;
+    const { name, description, cost, categories, address, area } = req.query;
     if (req.params.categoriesId) {
         const project = await Project.find({
             categories: req.params.categoriesId,
@@ -69,6 +69,16 @@ exports.getProjects = asyncHandler(async(req, res, next) => {
         if (address) {
             const data = await Project.find({
                 address: { $regex: address, $options: "$si" },
+            });
+            res.status(200).json({
+                success: true,
+                count: data.length,
+                data: data,
+            });
+        }
+        if (area) {
+            const data = await Project.find({
+                area: { $gt: 1, $lt: 1000000000 },
             });
             res.status(200).json({
                 success: true,

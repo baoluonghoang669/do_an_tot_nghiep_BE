@@ -12,9 +12,9 @@ exports.getCategories = asyncHandler(async(req, res, next) => {
         const data = await Category.find({
             name: { $regex: name, $options: "$si" },
         });
-        console.log(data);
         res.status(200).json({
             success: true,
+            totalCount: data.length,
             data: data,
         });
     }
@@ -24,6 +24,7 @@ exports.getCategories = asyncHandler(async(req, res, next) => {
         });
         res.status(200).json({
             success: true,
+            totalCount: data.length,
             data: data,
         });
     }

@@ -3,6 +3,7 @@ const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
 const ExcelJs = require("exceljs");
 const readXlsxFile = require("read-excel-file/node");
+const moment = require("moment");
 
 //@desc Get all users
 //@route Get /api/v1/users
@@ -38,8 +39,15 @@ exports.getUsers = asyncHandler(async(req, res, next) => {
         });
     }
     if (birthday) {
+        const date = new Date(birthday);
+        const today = date.toLocaleDateString(`fr-CA`).split("/").join("-");
+        var start = moment().startOf("day");
+        var end = moment(today).endOf("day");
         const data = await User.find({
-            birthday: { $regex: birthday, $options: "$si" },
+            birthday: {
+                $gte: start,
+                $lte: end,
+            },
         });
         res.status(200).json({
             success: true,
