@@ -12,7 +12,7 @@ const readXlsxFile = require("read-excel-file/node");
 //@access Public
 
 exports.getProjects = asyncHandler(async(req, res, next) => {
-    const { name, description, cost, categories, address, area } = req.query;
+    const { name, description, cost, address, area } = req.query;
     if (req.params.categoriesId) {
         const project = await Project.find({
             categories: req.params.categoriesId,
@@ -25,7 +25,7 @@ exports.getProjects = asyncHandler(async(req, res, next) => {
             count: project.length,
             data: project,
         });
-    } else if (name || description || cost || categories || address) {
+    } else if (name || description || cost || address) {
         if (name) {
             const data = await Project.find({
                 name: { $regex: name, $options: "$si" },
@@ -46,16 +46,14 @@ exports.getProjects = asyncHandler(async(req, res, next) => {
                 data: data,
             });
         }
-        if (categories) {
-            const data = await Project.find({
-                categories: { $regex: categories, $options: "$si" },
-            });
-            res.status(200).json({
-                success: true,
-                count: data.length,
-                data: data,
-            });
-        }
+        // if (categories) {
+        //     const data = await Project.find({});
+        //     res.status(200).json({
+        //         success: true,
+        //         count: data.length,
+        //         data: data,
+        //     });
+        // }
         if (cost) {
             const data = await Project.find({
                 cost: { $gt: 1, $lt: 1000000000 },
@@ -88,6 +86,15 @@ exports.getProjects = asyncHandler(async(req, res, next) => {
         }
     } else {
         res.status(200).json(res.advancedResults);
+
+        //   const project = await Project.find({}).populate({
+        //     path: "categories",
+        //   });
+        //   res.status(200).json({
+        //     success: true,
+        //     count: project.length,
+        //     data: project,
+        //   });
     }
 });
 
