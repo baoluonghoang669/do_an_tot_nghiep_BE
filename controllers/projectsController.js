@@ -5,6 +5,7 @@ const asyncHandler = require("../middleware/async");
 const Category = require("../models/Category");
 const ExcelJs = require("exceljs");
 const readXlsxFile = require("read-excel-file/node");
+const { log } = require("console");
 
 //@desc Get all projects
 //@route Get /api/v1/projects
@@ -12,20 +13,19 @@ const readXlsxFile = require("read-excel-file/node");
 //@access Public
 
 exports.getProjects = asyncHandler(async(req, res, next) => {
-    const { name, description, cost, address, area } = req.query;
+    const { name, description, cost, categoriesName, area } = req.query;
     if (req.params.categoriesId) {
         const project = await Project.find({
             categories: req.params.categoriesId,
         }).populate({
             path: "projects",
         });
-
         return res.status(200).json({
             success: true,
             count: project.length,
             data: project,
         });
-    } else if (name || description || cost || address) {
+    } else if (name || description || cost || categoriesName || area) {
         if (name) {
             const data = await Project.find({
                 name: { $regex: name, $options: "$si" },
@@ -46,27 +46,22 @@ exports.getProjects = asyncHandler(async(req, res, next) => {
                 data: data,
             });
         }
-        // if (categories) {
-        //     const data = await Project.find({});
-        //     res.status(200).json({
-        //         success: true,
-        //         count: data.length,
-        //         data: data,
-        //     });
-        // }
-        if (cost) {
+        if (categoriesName) {
             const data = await Project.find({
-                cost: { $gt: 1, $lt: 1000000000 },
+                name: { $regex: categoriesName, $options: "$si" },
+            }).populate({
+                path: "categories",
             });
+
             res.status(200).json({
                 success: true,
                 count: data.length,
                 data: data,
             });
         }
-        if (address) {
+        if (cost) {
             const data = await Project.find({
-                address: { $regex: address, $options: "$si" },
+                cost: { $gt: 1, $lt: 1000000000 },
             });
             res.status(200).json({
                 success: true,
@@ -86,15 +81,6 @@ exports.getProjects = asyncHandler(async(req, res, next) => {
         }
     } else {
         res.status(200).json(res.advancedResults);
-
-        //   const project = await Project.find({}).populate({
-        //     path: "categories",
-        //   });
-        //   res.status(200).json({
-        //     success: true,
-        //     count: project.length,
-        //     data: project,
-        //   });
     }
 });
 

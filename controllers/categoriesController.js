@@ -11,6 +11,8 @@ exports.getCategories = asyncHandler(async(req, res, next) => {
     if (name) {
         const data = await Category.find({
             name: { $regex: name, $options: "$si" },
+        }).populate({
+            path: "projects",
         });
         res.status(200).json({
             success: true,

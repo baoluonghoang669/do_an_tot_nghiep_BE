@@ -2,6 +2,7 @@ const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
 const Review = require("../models/Review");
 const Project = require("../models/Project");
+const User = require("../models/User");
 const ExcelJs = require("exceljs");
 const readXlsxFile = require("read-excel-file/node");
 //@desc Get all reviews
@@ -9,7 +10,7 @@ const readXlsxFile = require("read-excel-file/node");
 //@route Get /api/v1/projects/:projectId/reviews
 //@access Private
 exports.getReviews = asyncHandler(async(req, res, next) => {
-    const { comment, rating, project } = req.query;
+    const { comment, rating } = req.query;
     if (req.params.projectId) {
         const reviews = await Review.find({
             project: req.params.projectId,
@@ -23,10 +24,12 @@ exports.getReviews = asyncHandler(async(req, res, next) => {
             count: reviews.length,
             data: reviews,
         });
-    } else if (comment || rating || project) {
+    } else if (comment || rating) {
         if (comment) {
             const data = await Review.find({
                 comment: { $regex: comment, $options: "$si" },
+            }).populate({
+                path: "user project",
             });
             res.status(200).json({
                 success: true,
@@ -37,6 +40,8 @@ exports.getReviews = asyncHandler(async(req, res, next) => {
         if (rating) {
             const data = await Review.find({
                 rating: { $gt: 1, $lt: 11 },
+            }).populate({
+                path: "user project",
             });
             res.status(200).json({
                 success: true,
@@ -45,7 +50,15 @@ exports.getReviews = asyncHandler(async(req, res, next) => {
             });
         }
     } else {
-        res.status(200).json(res.advancedResults);
+        // res.status(200).json(res.advancedResults);
+        const data = await Review.find({}).populate({
+            path: "project user",
+        });
+        return res.status(200).json({
+            success: true,
+            count: data.length,
+            data: data,
+        });
     }
 });
 

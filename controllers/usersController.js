@@ -17,6 +17,7 @@ exports.getUsers = asyncHandler(async(req, res, next) => {
         console.log(data);
         res.status(200).json({
             success: true,
+            totalCount: data.length,
             data: data,
         });
     }
@@ -26,6 +27,7 @@ exports.getUsers = asyncHandler(async(req, res, next) => {
         });
         res.status(200).json({
             success: true,
+            totalCount: data.length,
             data: data,
         });
     }
@@ -35,6 +37,7 @@ exports.getUsers = asyncHandler(async(req, res, next) => {
         });
         res.status(200).json({
             success: true,
+            totalCount: data.length,
             data: data,
         });
     }
@@ -51,6 +54,7 @@ exports.getUsers = asyncHandler(async(req, res, next) => {
         });
         res.status(200).json({
             success: true,
+            totalCount: data.length,
             data: data,
         });
     }
@@ -60,6 +64,7 @@ exports.getUsers = asyncHandler(async(req, res, next) => {
         });
         res.status(200).json({
             success: true,
+            totalCount: data.length,
             data: data,
         });
     }
@@ -69,6 +74,7 @@ exports.getUsers = asyncHandler(async(req, res, next) => {
         });
         res.status(200).json({
             success: true,
+            totalCount: data.length,
             data: data,
         });
     }
