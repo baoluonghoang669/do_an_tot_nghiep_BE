@@ -1,884 +1,883 @@
-[
-  {
-    "_id": "5d713995b721c3bb38c1f5d0",
-    "user": "5d7a514b5d2c12c7449be045",
-    "name": "Dự án nhà biệt thự",
-    "description": "Với diện tích khu đất 200m2, chủ đầu tư có mong muốn xây một ngôi nhà 2 tầng mái thái trên diện tích 130m2, còn lại là sân vườn. Các KTS Trọc Studio đã thiết kế nên một ngôi nhà mái thái mang phong cách hiện đại pha chút tân cổ điển. Ngôi nhà mang một vẻ đẹp tao nhã, thanh thoát với màu trắng của sơn, màu đỏ gạch của lớp mái ngói và màu xanh của hoa cỏ.",
-    "address": "k55/11 phường Mỹ An, quận Ngũ Hành Sơn",
-    "architecture": "Lương Hoàng Linh",
-    "client": "Hoàng Bảo",
-    "cost": 10000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 10000000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1546791844-1a7fc3d7c809?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1049&q=80",
-      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f5d1",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Dự án nhà biệt thự cao cấp",
-    "description": "Hệ thống cửa được làm bằng gỗ kết hợp với các ô kính mang lại sự chắc chắn cũng như sang trọng cho tổng thể ngôi nhà. Đồng thời cũng giúp ngôi nhà lấy được ánh sáng tự nhiên cũng như tạo thêm nhiều góc view đẹp từ trong nhà.",
-    "address": "k69/96 phường Mân Thái, quận Sơn Trà",
-    "architecture": "Đào Quang Lập",
-    "client": "Phạm Anh Tuấn",
-    "cost": 900000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 20000000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=906&q=80",
-      "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f5d2",
-    "user": "5d7a514b5d2c12c7449be043",
-    "name": "Dự án nhà ở mặt phố",
-    "description": "Diện tích sân vườn 70m2 xanh mát với đang dạng chủng loại cây cối từ thảm cỏ xanh tới cây lấy bóng mát. Sân công trình được lát đá tự nhiên giúp biệt thự tăng hơn tính xanh, thân thiện cùng môi trường và giải tỏa cái nóng vào mùa hè.",
-    "address": "k69/96 phường nghèo",
-    "architecture": "Nguyễn Đình Hân",
-    "client": "Anh Hân",
-    "cost": 120000000,
-    "isBooked": true,
-    "photo":  "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 30000000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1430285561322-7808604715df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1143&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f5d3",
-    "user": "5d7a514b5d2c12c7449be042",
-    "name": "Dự án khách sạn Han River",
-    "description": "Tầng hầm gara cửa cuốn an toàn. Phòng khách khá thoáng, không gian ấm cúng tiếp bạn bè hay các thành viên gia đình quây quần bên nhau. Bên trong là phòng bếp kết hợp với bàn ăn rộng rãi, thoải mái. Một phòng ngủ ở góc yên tĩnh cho giấc ngủ êm ái và một nhà vệ sinh chung.Tường rào được xây dựng kết hợp cùng hệ thống cây bụi được tỉa vuông vắn rất nghệ thuật và đậm chất phương Đông. Khách sạn toát lên tính hiện đại mang đậm bản sắc Châu Á, là một công trình tuyệt tác.",
-    "address": "Nằm gần biển Mỹ Khuê",
-    "architecture": "Nguyễn Văn Trung",
-    "client": "Ngô Xuân Bảo",
-    "cost": 897000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80",
-    "area": 40000000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1541123603104-512919d6a96c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f5d4",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà biệt thự phố núi",
-    "description": "Mẫu nhà lô 3 tầng nhà anh Huân được thiết kế theo phong cách hiện đại. Ngôi nhà được phối hợp giữa màu sơn trắng sữa, màu ghi đậm và điểm xuyết thêm màu nâu của gạch ốp tường tạo nên một tổng thể hài hòa về màu sắc, khiến ngôi nhà trở nên thanh lịch, trang nhã.",
-    "address": "Nằm gần biển núi Ngũ Hành Sơn",
-    "architecture": "Nguyễn Văn Lập",
-    "client": "Ngô Xuân Hài",
-    "cost": 197000000,
-    "isBooked": false,
-    "photo":  "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-5.jpg",
-    "area": 40000000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f5d5",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà biệt thự cổ điển",
-    "description": "Mẫu nhà lô 3 tầng nhà anh Huân được thiết kế theo phong cách hiện đại. Ngôi nhà được phối hợp giữa màu sơn trắng sữa, màu ghi đậm và điểm xuyết thêm màu nâu của gạch ốp tường tạo nên một tổng thể hài hòa về màu sắc, khiến ngôi nhà trở nên thanh lịch, trang nhã.",
-    "address": "Nằm gần núi Ngũ Hành Sơn",
-    "architecture": "Nguyễn Văn Lập",
-    "client": "Ngô Xuân Hài",
-    "cost": 197000000,
-    "isBooked": false,
-    "photo":  "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-6.jpg",
-    "area": 40000000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1087&q=80",
-      "https://images.unsplash.com/photo-1570057633712-870fa818fa15?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f5d6",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà thường ở gần biển",
-    "description": "Ngôi nhà hấp dẫn ở hình khối vô cùng phóng khoáng với cách sắp xếp độc đáo của các kts 902 Studio mang đến sự năng động, tươi trẻ và mới mẻ chỉ bằng những khối vuông vắn, mạnh mẽ.Không khó để nhận thấy rằng hầu hết mọi ánh mắt đều bị thu hút bởi màu xanh của khóm cây tại ban công tầng 2 của ngôi nhà.",
-    "address": "Nằm gần biển Phạm Văn Đồng",
-    "architecture": "Nguyễn Sế",
-    "client": "Ngô Đình Huy",
-    "cost": 445000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 40000000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80",
-      "https://images.unsplash.com/photo-1529290130-4ca3753253ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f5d7",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Monalisa",
-    "description": "Hệ thống cửa được làm từ những ô kính lớn, tạo view từ trong ra ngoài, đồng thời cũng giúp lấy ánh sáng tự nhiên vào trong nhà nhiều hơn. Tầng 3 lan can được biến tấu thành giàn lưới, tạo giàn để trồng cây hoa leo, vừa tăng thẩm mỹ vừa giúp tạo không gian cho cây xanh phát triển.",
-    "address": "K16 Phan Tôn, Đà Nẵng",
-    "architecture": "Nguyễn Đình Hân",
-    "client": "Trần Quốc Chiến",
-    "cost": 68600000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1560200353-ce0a76b1d438?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
-    "area": 67500000,
-    "relatedPhoto": [
-      "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-8.jpg",
-      "https://images.unsplash.com/photo-1576675784201-0e142b423952?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f5d8",
-    "user": "5d7a514b5d2c12c7449be042",
-    "name": "Khách sạn hoàng kim giáp",
-    "description": "Một góc nhìn khác cận cảnh hơn của công trình. Diện tích sân vườn 70m2 xanh mát với đang dạng chủng loại cây cối từ thảm cỏ xanh tới cây lấy bóng mát. Sân công trình được lát đá tự nhiên giúp biệt thự tăng hơn tính xanh, thân thiện cùng môi trường và giải tỏa cái nóng vào mùa hè.",
-    "address": "K12 Phan Thanh",
-    "architecture": "Nguyễn Đình Chiểu",
-    "client": "Trần Quốc Vũ",
-    "cost": 90000000,
-    "isBooked": false,
-    "photo":  "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-3.jpg",
-    "area": 617500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
-      "https://images.unsplash.com/photo-1576675784432-994941412b3d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f5d9",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Mường Thanh",
-    "description": "Một góc nhìn khác cận cảnh hơn của công trình. Diện tích sân vườn 70m2 xanh mát với đang dạng chủng loại cây cối từ thảm cỏ xanh tới cây lấy bóng mát. Sân công trình được lát đá tự nhiên giúp biệt thự tăng hơn tính xanh, thân thiện cùng môi trường và giải tỏa cái nóng vào mùa hè.",
-    "address": "K12 Phan Thanh",
-    "architecture": "Nguyễn Ngọc Như Quỳnh",
-    "client": "Thế Sơn",
-    "cost": 22000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=998&q=80",
-    "area": 117500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f510",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà thường đơn giản ở góc phố",
-    "description": "Mặt tiền ngôi nhà khá rộng (7m), được chia thành 2 cửa, 1 cửa lớn sử dụng cửa cuốn để cho xe oto ra vào dễ dàng, cửa phụ dẫn thẳng vào nhà.Ngôi nhà phù hợp với các cặp đôi vợ chồng trẻ thích nhịp sống sôi nổi ở phố.  Không gian ấm cúng được thiết kế hài hòa , đầy đủ chức năng và hợp ý gia chủ lẫn phong cách và phong thủy.",
-    "address": "K69 Lê Duẩn",
-    "architecture": "Lương Hoàng Bảo",
-    "client": "Triệu Vỹ",
-    "cost": 220000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1507149833265-60c372daea22?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1055&q=80",
-    "area": 1175000000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f511",
-    "user": "5d7a514b5d2c12c7449be045",
-    "name": "Nhà cấp 4 sang trọng",
-    "description": "Tầng hầm gara cửa cuốn an toàn. Phòng khách khá thoáng, không gian ấm cúng tiếp bạn bè hay các thành viên gia đình quây quần bên nhau. Bên trong là phòng bếp kết hợp với bàn ăn rộng rãi, thoải mái. Một phòng ngủ ở góc yên tĩnh cho giấc ngủ êm ái và một nhà vệ sinh chung..",
-    "address": "K12 Phan Thanh",
-    "architecture": "Nguyễn Thành Trung",
-    "client": "Võ Anh Đức",
-    "cost": 2442000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 1172500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f512",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 ĐN",
-    "description": "Chúng tôi xin giới thiệu các bạn những mẫu nhà cấp 4 gác lửng giá rẻ đẹp. Được ưa chuộng hiện nay với các kiểu 4x16m, 5x20m. Với các phong cách hiện đại hay đơn giản, mời các bạn cùng chúng tôi. Điểm qua những mẫu nhà cấp 4 giá rẻ, nhà lửng đẹp. Với những kiểu nhà đẹp đơn giản, những ngôi nhà cấp 4 đẹp như vậy nhé.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-1.jpg",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1448630360428-65456885c650?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80",
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f513",
-    "user": "5d7a514b5d2c12c7449be042",
-    "name": "Nhà cấp 4 QN",
-    "description": "Thiết kế mẫu nhà cấp 4 có gác lửng giá rẻ trên diện tích 5×20. Có chi phí xây dựng giá rẻ đẹp, phù hợp với nhu cầu xây dựng nhà ở ngày một tăng cao. Của người dân đặc biệt đối với những gia đình có thu nhập trung bình. Và thấp với nhiều các kiểu nhà cấp 4 có gác lửng.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Bảo",
-    "client": "Võ Kiệt",
-    "cost": 132000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 1252500000,
-    "relatedPhoto": [
-      "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-7.jpg",
-      "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f514",
-    "user": "5d7a514b5d2c12c7449be045",
-    "name": "Nhà cấp 4 PT",
-    "description": "Việc xây mẫu nhà cấp 4 có gác lửng 4×16 sẽ là lựa chọn vô cùng hợp lý nó có quy mô nhà nhỏ giá rẻ vì không chỉ vì có nguồn chi phí giá rẻ mà thể hiện sự tỉ mĩ của bạn trong việc chọn và xây nhà với không gian sống rộng rãi, thoải mái mà lại là mẫu nhà rẻ đẹp phổ biến với nhà cấp 4 gác lửng đẹp giá rẻ",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-2.jpg",
-      "https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f515",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 TY",
-    "description": "Việc lựa chọn thiết kế mẫu nhà cấp 4 có gác lửng trên diện tích đất 4×16 là khá phổ biến đối với phần đông gia đình hiện nay, bởi ngôi nhà theo thiết kế này sẽ tiết kiệm được phần lớn chi phí xây dựng mẫu nhà giá rẻ cũng như sẽ đáp ứng được không gian sống thoải mái, dễ chịu cho gia đình bạn với nhà cấp 4 60m2 hoặc thiết kế nhà cấp 4 có gác lửng 50m2 nhà gác lửng nhỏ đẹp hơn",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Thành Viên",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1574643156929-51fa098b0394?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1560185127-2d06c6d08d3d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f516",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 HY",
-    "description": "Việc lựa chọn thiết kế mẫu nhà cấp 4 có gác lửng trên diện tích đất 4×16 là khá phổ biến đối với phần đông gia đình hiện nay, bởi ngôi nhà theo thiết kế này sẽ tiết kiệm được phần lớn chi phí xây dựng mẫu nhà giá rẻ cũng như sẽ đáp ứng được không gian sống thoải mái, dễ chịu cho gia đình bạn với nhà cấp 4 60m2 hoặc thiết kế nhà cấp 4 có gác lửng 50m2 nhà gác lửng nhỏ đẹp hơn",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1560448204-61dc36dc98c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1560185008-b033106af5c3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1592928302636-c83cf1e1c887?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f517",
-    "user": "5d7a514b5d2c12c7449be043",
-    "name": "Nhà cấp 4 HJ",
-    "description": "Việc lựa chọn thiết kế mẫu nhà cấp 4 có gác lửng trên diện tích đất 4×16 là khá phổ biến đối với phần đông gia đình hiện nay, bởi ngôi nhà theo thiết kế này sẽ tiết kiệm được phần lớn chi phí xây dựng mẫu nhà giá rẻ cũng như sẽ đáp ứng được không gian sống thoải mái, dễ chịu cho gia đình bạn với nhà cấp 4 60m2 hoặc thiết kế nhà cấp 4 có gác lửng 50m2 nhà gác lửng nhỏ đẹp hơn",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1521783988139-89397d761dce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1047&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f518",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 YI",
-    "description": "Hiện nay, không ít gia đình lựa chọn xây dựng nhà cấp 4 có gác lửng. Không chỉ những hộ gia đình ở nông thôn, mà ngay cả. Những gia đình thành thị cũng chuộng mẫu nhà này.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1537726235470-8504e3beef77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1569152811536-fb47aced8409?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1055&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f519",
-    "user": "5d7a514b5d2c12c7449be045",
-    "name": "Nhà cấp 4 LK",
-    "description": "Gác lửng, tầng lửng hiện đại hay gác xép là là tầng trung gian giữa các tầng trong một ngôi nhà hoặc tòa nhà, đây cũng một phần trong kiến trúc của ngôi nhà. Thiết kế nhà có gác lửng đẹp vừa giúp tiết kiệm diện tích sinh hoạt cho gia đình bạn vừa tạo nên nét đẹp độc đáo, mới lạ cho ngôi nhà.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1546791844-1a7fc3d7c809?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1049&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/flagged/photo-1556438758-8d49568ce18e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1053&q=80",
-      "https://images.unsplash.com/photo-1570544820446-1690843de6ea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f520",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 SM",
-    "description": "Hiện nay không ít gia đình lựa chọn thiết kế nhà cấp 4 có gác lửng hiện đại cho căn nhà của mình, tận dụng đó làm nơi sinh hoạt chung cho cả gia đình, làm phòng khách, bếp, phòng ăn hay phòng làm việc. Thậm chí nhiều thiết kế gác lửng được sử dụng làm phòng ngủ hay phòng đọc sách rất hợp lý và tiện lợi.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1495433324511-bf8e92934d90?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f521",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 ST",
-    "description": "Nhằm mang đến cho con người những không gian sống thoải mái nhất. Với các trang thiết bị hiện đại giảm thiểu tối đa kinh phí xây dựng ngày hôm nay chúng tôi mang đến cho các bạn một mẫu nhà cấp 4 gác lửng hiện đại.Có thể nói nó chính là mẫu nhà đại diện mang trong mình sự cải cách của kiến trúc và sự kết tinh của những yếu tố truyền thống. Kết hợp với các yếu tố hiện đại từ đó làm ra các sản phẩm có thể đạt đến độ hoàn hảo.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=973&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1560184897-502a475f7a0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f522",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Nhà cấp 4 HQ",
-    "description": "Trong thiết kế, gác lửng là một diện tích được thiết kế ra để tăng không gian sống cho ngôi nhà. Nhất là những ngôi nhà có diện tích hẹp hoặc bị hạn chế về chiều cao. Không chỉ vậy, gác lửng còn tạo nên tính thẩm mỹ cho ngôi nhà bạn.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1528255671579-01b9e182ed1d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1611216212569-d739dbe9ed40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
-      "https://images.unsplash.com/photo-1546551613-09c2f83e1ede?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1055&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f548",
-    "user": "5d7a514b5d2c12c7449be043",
-    "name": "Nhà cấp 4 MY",
-    "description": "Thiết kế nhà mẫu nhà cấp 4 gác lửng giá rẻ độc đáo về kiến trúc, tùy theo gia chủ mà gác lửng sẽ được thiết kế phá cách, có thể là 1 hay 2 gác lửng với cầu thang xoắn ốc hiện đại… để tạo ra mẫu nhà cấp 4 đẹp giá rẻ. Biến tấu của mẫu nhà có gác lửng trong thiết kế mang đến sự độc đáo tuyệt vời cho căn nhà bạn như những mẫu nhà cấp 4 nhỏ đẹp như này.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1556912998-c57cc6b63cd7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1560185127-bc36ce01f6e5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1568149139788-4d3b85e9cccc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f523",
-    "user": "5d7a514b5d2c12c7449be042",
-    "name": "Nhà cấp 4 HL",
-    "description": "So với những thiết kế nhà 2 tầng hay 3 tầng thì hiển nhiên các mẫu nhà có gác lửng, mẫu nhà cấp 4 gác lửng đẹp được xây dựng với kinh phí thấp hơn. Thậm chí, nếu so sánh với nhà 1 tầng, mẫu nhà này cũng có thể được coi là có mức chi phí xây dựng thấp hơn và thiết kế nhà cấp 4 gác lửng đơn giản lạ lẫm hơn.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1542853647-47ad77242390?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1570054417349-6608f370f6d7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=996&q=80",
-      "https://images.unsplash.com/photo-1560184897-6cdec21b9962?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f524",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Hotique",
-    "description": "Nằm đối diện 2 sân golf nổi tiếng của CLB chơi golf Montgomerie Links Vietnam, Naman Retreat cung cấp cho khách hồ bơi ngoài trời và khu vực bãi biển riêng.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1459535653751-d571815e906b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f525",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Loti",
-    "description": "Để tạo đột phá trong phát triển du lịch tại nước nhà. Cũng như các tỉnh lân cận thì ngoài việc tỉnh luôn chú trọng nâng cấp phát triển hạ tầng du lịch. Hiện nay các đơn vị kinh doanh trong lĩnh vực du lịch khách sạn khá nhiều. Khách sạn tân cổ điển được chủ đầu tư chủ động tìm hướng đầu tư đúng chiến lược nhất.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f526",
-    "user": "5d7a514b5d2c12c7449be045",
-    "name": "Khách sạn Munica",
-    "description": "Các mẫu thiết kế kiến trúc khách sạn đẹp và sang trọng thực sự quan trọng và cần thiết với các chủ đầu tư kinh doanh khách sạn. Và đối với chính các khách hàng lựa chọn khách sạn để dùng chân nghỉ dưỡng cũng dựa vào đánh giá khách quan đối với khách sạn đó. Thiết kế  khách sạn với không gian độc đáo sẽ là điểm nhấn tạo được ấn tượng, cảm giác mới lạ và thoải mái đến với khách hàng.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1521782462922-9318be1cfd04?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f527",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Lazada",
-    "description": "Một khách sạn được xây dựng với sự tư vấn, giúp đỡ của đội ngũ chuyên gia thiết kế  giỏi công ty Troc Studio sẽ không làm quý chủ đầu tư thất vọng với thành quả mình nhận được.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f528",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn MissUniverse",
-    "description": "Đối với nhu cầu về nhà đất ở Việt Nam, thịnh hành nhất hiện nay có khá nhiều kiểu kiến trúc. Có người thích mẫu khách sạn vườn đẹp với nhiều cảnh quan cây cối xung quanh, kết hợp giữa môi trường và không gian sống. Mang lại sự hài hòa chung về phong cách sống và tính nhân văn. có người thích khách sạn theo phong cách cổ điển để lưu lại thời gian một thời đã qua. Kiến An Vinh là một công ty chuyên thiết kế khách sạn bán cổ điển mang lại phong cách hiện đại lẫn cổ điển.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1449247613801-ab06418e2861?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80",
-      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f529",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Luxury",
-    "description": "Công nghệ tiên tiến ,đòi hỏi con người cũng tiến triển theo nó từ đó khách sạn dần dần ra đời. Sâp cũng là nơi tham quan du lịch của rất nhiều không gian du lịch. Đến với SAPA là một khu nghỉ dưỡng phức hợp sang trọng nhiều lĩnh vực về dịch vụ hoạt động giải trí nghỉ dường , nhà hàng cao cấp sang trọng , trung tâm spa và một số trò chơi có thưởng hiện đại.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
-      "https://images.unsplash.com/photo-1529290130-4ca3753253ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f530",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Department",
-    "description": "Thiết kế khách sạn – thiết kế khách sạn đẹp với nội thất hiện đại đó là một trong những chuyên ngành công ty Troc Studio chúng tôi đã và đang thiết kế và thi công tại Thành phố Hồ Chí Minh và các tỉnh thành trên cả nước như Long An, Gia Lai, Kiên Giang , An Giang , Bạc Liêu , Nghệ An , Hà Nội, Thanh Hóa ,…",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f531",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Eearth",
-    "description": "Thời nay công nghệ thông tin hiện đại bao nhiêu kinh tế tăng trưởng, thì nhu cầu về cuộc sống của con người cũng tăng cao . Do đó , nhu cầu đi du lịch cũng mỗi ngày một tăng cao trong dịp nghỉ lễ , hè và đặc biệt là dịp tết .Từ đó , dẫn đến một số tỉnh , thành phố có tiềm năng phát triển về ngành du lịch như Nghệ An , Cần Thơ ,Đà lạt, Tp.Hồ Chí Minh ,Vũng tàu, Kiên Giang , ….có nhiều chủ đầu tư kinh doanh khách sạn họ mong muốn tìm được một Kiến Trúc Sư hoặc công ty tư vấn thiết kế để thiết kế khách sạn.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1053&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f532",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn SunShine",
-    "description": "Một khách sạn thu hút nhiều du khách trong và ngoài nước đến để đặt phòng thì ngoài những vị trí mà khách sạn đó tọa lạc thì việc thiết kế, bố trí phòng, sảnh, dịch vụ của khách sạn cũng được các khách du lịch quan tâm trước khi họ đặt phòng.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1501183638710-841dd1904471?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1573668200361-62e141908294?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f533",
-    "user": "5d7a514b5d2c12c7449be042",
-    "name": "Khách sạn Louis",
-    "description": "Thiết kế khách sạn cần chú ý vào những qui chuẩn, qui định của đơn vị cấp phép, phòng cháy chữa cháy, tổng cục du lịch và các cơ quan, ban ngành cấp phép để khách sạn được hoạt động. Một KTS giỏi khi thiết kế khách sạn thể hiện qua việc bố trí, sắp xếp các phòng hợp lý, bố trí hệ thống cấp thoát nước, thang bộ, thang máy, hệ thống phòng chông cháy nổ, thoát hiểm, hộp gen kỹ thuật.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1602081115720-72e5b0a254b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
-      "https://images.unsplash.com/photo-1594182957126-9e4ec2ef74ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f534",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Troc",
-    "description": "Bao phủ lên không gian ngoại thất khách sạn tân cổ điển đẹp là gam màu sơn trắng tinh khiết. Nét tân cổ điển thanh thoát làm nổi bật lên những đường phào chỉ đơn giản mà sắc nét. Nổi bật trên nền sơn trắng đó là các khung cửa, ban công, ô văng chất liệu gỗ kính khá tinh tế nhất hiện nay.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1055&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1534679541758-8dc76ff8081d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1083&q=80",
-      "https://images.unsplash.com/photo-1594130139005-3f0c0f0e7c5e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f535",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Studio",
-    "description": "Với các tầng hệ thống nhà khách sạn luôn hiện hữu cho chủ đầu tư. Với sự lặp lại kiến trúc các tầng tạo nên vẻ đẹp đồng đều, cân xứng cho khách sạn 3 sao. Tiền sảng vô cùng sang trọng được thiết kế khá cầu kì với màu sơn vàng đồng nổi bật cho không gian khách sạn. Khu vực tân phú hồ chí minh có một vị trí quan trọng nhất của mẫu thiết kế khách sạn tân cổ điển 3 sao. Bởi đây là nơi đón tiếp khách và từ đây khách hàng sẽ đánh giá cao bởi đa số khách hàng.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1544097935-e6d136448533?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f536",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Beach",
-    "description": "Thiết kế khách sạn đẹp. Sang trọng đang được giới đầu tư chú trọng đến hình thức kiến trúc ngoại thất cũng như nội thất. Thiết kế khách sạn đẹp đang hướng đến sự phát triển ở những địa điểm du lịch. Với nhu cầu về chất lượng dịch vụ ngày một cao. Của các du khách cũng như sự đòi hỏi của con người. Chủ đầu tư kinh doanh khách sạn luôn rất chú trọng từ ngoại thất đến nội thất bên trong của khách sạn.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1594560913036-d15f23f8a91c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1049&q=80",
-      "https://images.unsplash.com/photo-1590490359854-dfba19688d70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f537",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Kimmich",
-    "description": "Thiết kế khách sạn theo phong cách tây phương luôn ấn tượng bởi sự sang trọng, tiện dụng của nó.Thiết kế giúp các doanh nhân nâng tầm dịch vụ khách sạn chuyên nghiệp của mình Thiết kế khách sạn theo phong cách tây phương luôn ấn tượng bởi sự sang trọng, tiện dụng của nó.Thiết kế giúp các doanh nhân nâng tầm dịch vụ khách sạn chuyên nghiệp của mình. Tại sảnh chính là quầy tiếp tân với những vật dụng văn phòng thể hiện sự chuyên nghiệp.Thiết kế nội thất sảnh đón khách được pha trộn tính nghệ thuật với những bức tranh đen trắng.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=998&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f538",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Khách sạn Ronaldo",
-    "description": "Những mẫu khách sạn đẹp nhiều tầng. Là một trong những mẫu ưa chuộng nhất hiện nay với kiến trúc bán cổ điển. Mẫu được khách hàng tại Kiến An Vinh đánh giá cao về tính thẩm mỹ. Cũng nên độ hoành tráng đồ sộ tại Gia Lai. Những mẫu khách sạn đẹp nhiều tầng là một trong những mẫu ưa chuộng nhất hiện nay với kiến trúc bán cổ điển. Mẫu được khách hàng tại Kiến An Vinh đánh giá cao về tính thẩm mỹ cũng nên độ hoành tráng đồ sộ tại Gia Lai.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1565183997392-2f6f122e5912?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/flagged/photo-1556438758-8d49568ce18e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1053&q=80",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff782"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f539",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự",
-    "description": "Một biệt thự 4 tầng với thiết kế phong cách đậm chất cổ điển châu Âu, được xây dựng trên diện tích vuông vức: 13mx13m (chưa bao gồm khuôn viên cây xanh và hồ bơi rộng thoáng). Đó chính là dự án biệt thự ở Nhà Bè mà đội ngũ các anh em Troc Studio đảm nhiệm thực hiện thiết kế và thi công trong suốt những năm qua.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1582417728413-b2347161b864?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
-      "https://images.unsplash.com/photo-1576675784432-994941412b3d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f540",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự koi",
-    "description": "Tọa lạc trên khuôn viên đất xấp xỉ 1500m2, biệt thự được xây dựng với diện tích chiếm đất xấp xỉ 300m2,  có 1 tầng hầm và 4 tầng nổi, chứa được 5 phòng ngủ lớn, 1 phòng khách lớn, 1 phòng bếp ăn lớn, 1 phòng thờ lớn, 1 phòng Gymhome, 1 phòng sưu tập đồ chơi lớn, 2 nhà gỗ, 1 hồ nuôi cá Koi.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1551215717-8bc8cfe833ee?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
-      "https://images.unsplash.com/photo-1576675784201-0e142b423952?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f541",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự Châu Âu",
-    "description": "Biệt thự siêu đẹp này được thiết kế và xây dựng cho mục đích làm nơi tề tựu đại gia đình mỗi dịp lễ tết, đám tiệc của một gia đình đông anh em trưởng thành mỗi người ở một phương.Phong cách kiến trúc Tân cổ điển Châu Âu, nội thất được thiết kế kết hợp giữa cổ điển Châu Âu với nội thất thuần Việt tạo ra cá tính riêng của gia chủ.",
-    "address": "K15 Phan Thiết",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 142000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 1532500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1570057633712-870fa818fa15?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1576675784201-0e142b423952?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f542",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự Châu Âu 2",
-    "description": "Tọa lạc trong khuôn viên 8.000 m2 đất tiếp xúc liền kề với một khu cảng biển nội địa sầm uất có diện tích xấp xỉ 25 ha. Khu nhà dành cho chuyên gia vận hành cảng được chủ đầu tư tin tưởng đặt hàng cho Troc Studio thiết kế với phong cách bán cổ điển cao cấp. Troc Studio muốn chia sẻ đến các bạn các thông tin cơ bản của dự án thiết kế này, để qua đó giúp các bạn hiểu thêm về kinh nghiệm, hiểu thêm về mức độ  uy tín của Troc Studio trong phân khúc thiết kế nhà ở để có thêm cơ sở tin tưởng mà lỡ có làm nhà cũng yên tâm gọi điện cho Troc Studio tư vấn và cung cấp dịch vụ thiết kế, xây dựng, hoàn thiện nội thất cho các bạn.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1539693010221-cd218dfe6565?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1087&q=80",
-      "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f543",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự Châu Á",
-    "description": "Khu đất được chủ đầu tư dành riêng để làm khu nhà ở cho chuyên gia được quy hoạch rất vuông vắn với bề ngang xấp xỉ 55m và chiều sâu xấp xỉ 150m được vạch tuyến giao thông chính ở giữa chia khu đất làm thành hai dãy nhà liền kề vườn tiếp xúc vườn, mặt tiền đối mặt tiền và có phong cách tân cổ điển nên nhìn giống giống với một khu đô thị cao cấp của Vingroup.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f544",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự Đà Nẵng",
-    "description": "Mỗi căn được phân định trên diện tích đất 20x20m và diện tích thiết kế xây dựng chiếm đất xấp xỉ 15x15m, đường ô tô và đường đi bộ nội khu song song chiếm giữa 15m. Nội khu khép kín và được bảo an 24/24 nên giữa các căn nhà chuyên gia không cần tường rào bao che, ngăn cách, thay vào đó sử dụng cây xanh phân định ranh giới và tăng chất lượng sống xanh cho toàn bộ khu nhà.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1543503103-f94a0036ed9d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1576675784201-0e142b423952?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80",
-      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f545",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự rẻ",
-    "description": "Đây là một dự án có bề ngang 7,5m được các KTS của Louis thiết kế với dáng vẻ bề thế của một căn biệt thự cổ điển nhưng vẫn lấy hết bề ngang của nó để làm nơi ở rộng rãi và an toàn hơn. Qui mô lầu cao của nó gồm có 1 tầng trệt, 1 tầng lầu và 1 tầng áp mái với năng lực cung ứng gồm có 4 phòng ngủ, 1 phòng khách, 1 khu bếp kết hợp được bàn ăn, 1 không gian thờ gia tiên lớn, 1 khu tập Gym tại nhà và 1 khu giặt phơi lớn ",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1495433324511-bf8e92934d90?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1060&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff784"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f546",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự rẻ nhất",
-    "description": "Đây là dự án cải tạo mà Louis được gia chủ giao cho nhiệm vụ thiết kế – thi công trọn gói. Căn biệt thự ban đầu tưởng chừng như rất nguy nga, bề thế nhưng lại tồn tại khá nhiều bất cập, không gian bên trong xuống cấp, nội thất lỗi thời. Hơn ai hết, gia chủ nhận ra điều này từ rất sớm nên mong muốn “hô biến” biệt thự nhà mình để nâng cao chất lượng cuộc sống ngay tại nhà.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 42000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1530734218972-25a9391ccd8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    "area": 152500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1576154918674-f31a1c91a3cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1177&q=80",
-      "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f547",
-    "user": "5d7a514b5d2c12c7449be044",
-    "name": "Biệt thự sang trọng",
-    "description": "Tọa lạc một vị trí đắc địa, quyến rũ trong một khu dân cư mới sang trọng, Thẩm Mỹ Viện Ngọc Hường chi nhánh Quảng Ninh sở hữu diện tích đất xấp xỉ 12m x 27m, được thiết kế với quy mô một Trệt, 2 Lầu và 1 tum che thang, công năng sử dụng: tầng Trệt làm nơi tiếp khách,trưng bày sản phẩm làm đẹp, văn phòng làm việc quản lý, khu vệ sinh chung; tầng 1 và tầng 2 sử dụng cho dịch vụ Spa; một phần diện tích lầu 2 được tận dụng làm căn hộ hai phòng ngủ cho gia chủ làm chốn nghỉ ngơi sau giờ làm việc.",
-    "address": "K16 Phan Thanh",
-    "architecture": "Nguyễn Trung",
-    "client": "Võ Anh",
-    "cost": 99942000000,
-    "isBooked": false,
-    "photo":  "https://images.unsplash.com/photo-1556910096-6f5e72db6803?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
-    "area": 9952500000,
-    "relatedPhoto": [
-      "https://images.unsplash.com/photo-1576493169316-0745093ae312?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "https://images.unsplash.com/flagged/photo-1556438758-8be0c4afe990?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-    ],
-    "categories": "5d725a4a7b292f5f8ceff783"
-  }
+[{
+        "_id": "5d713995b721c3bb38c1f4d1",
+        "user": "5d7a514b5d2c12c7449be045",
+        "name": "Dự án nhà biệt thự 200m2",
+        "description": "Với diện tích khu đất 200m2, chủ đầu tư có mong muốn xây một ngôi nhà 2 tầng mái thái trên diện tích 130m2, còn lại là sân vườn. Các KTS Trọc Studio đã thiết kế nên một ngôi nhà mái thái mang phong cách hiện đại pha chút tân cổ điển. Ngôi nhà mang một vẻ đẹp tao nhã, thanh thoát với màu trắng của sơn, màu đỏ gạch của lớp mái ngói và màu xanh của hoa cỏ.",
+        "address": "k55/11 phường Mỹ An, quận Ngũ Hành Sơn",
+        "architecture": "Lương Hoàng Linh",
+        "client": "Hoàng Bảo",
+        "cost": 100000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 100000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1546791844-1a7fc3d7c809?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1049&q=80",
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f5d1",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Dự án nhà biệt thự cao cấp",
+        "description": "Hệ thống cửa được làm bằng gỗ kết hợp với các ô kính mang lại sự chắc chắn cũng như sang trọng cho tổng thể ngôi nhà. Đồng thời cũng giúp ngôi nhà lấy được ánh sáng tự nhiên cũng như tạo thêm nhiều góc view đẹp từ trong nhà.",
+        "address": "k69/96 phường Mân Thái, quận Sơn Trà",
+        "architecture": "Đào Quang Lập",
+        "client": "Phạm Anh Tuấn",
+        "cost": 900000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 20000000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=906&q=80",
+            "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f5d2",
+        "user": "5d7a514b5d2c12c7449be043",
+        "name": "Dự án nhà mặt phố",
+        "description": "Diện tích sân vườn 70m2 xanh mát với đang dạng chủng loại cây cối từ thảm cỏ xanh tới cây lấy bóng mát. Sân công trình được lát đá tự nhiên giúp biệt thự tăng hơn tính xanh, thân thiện cùng môi trường và giải tỏa cái nóng vào mùa hè.",
+        "address": "k69/96 phường nghèo",
+        "architecture": "Nguyễn Đình Hân",
+        "client": "Anh Hân",
+        "cost": 120000000,
+        "isBooked": true,
+        "photo": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 30000000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1430285561322-7808604715df?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1143&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f5d3",
+        "user": "5d7a514b5d2c12c7449be042",
+        "name": "Dự án Khách sạn Hàn River",
+        "description": "Tầng hầm gara cửa cuốn an toàn. Phòng khách khá thoáng, không gian ấm cúng tiếp bạn bè hay các thành viên gia đình quây quần bên nhau. Bên trong là phòng bếp kết hợp với bàn ăn rộng rãi, thoải mái. Một phòng ngủ ở góc yên tĩnh cho giấc ngủ êm ái và một nhà vệ sinh chung.Tường rào được xây dựng kết hợp cùng hệ thống cây bụi được tỉa vuông vắn rất nghệ thuật và đậm chất phương Đông. Khách sạn toát lên tính hiện đại mang đậm bản sắc Châu Á, là một công trình tuyệt tác.",
+        "address": "Nằm gần biển Mỹ Khuê",
+        "architecture": "Nguyễn Văn Trung",
+        "client": "Ngô Xuân Bảo",
+        "cost": 89709900,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80",
+        "area": 4100000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1541123603104-512919d6a96c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f5d4",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà biệt thự Quận Ba",
+        "description": "Mẫu nhà lô 3 tầng nhà anh Huân được thiết kế theo phong cách hiện đại. Ngôi nhà được phối hợp giữa màu sơn trắng sữa, màu ghi đậm và điểm xuyết thêm màu nâu của gạch ốp tường tạo nên một tổng thể hài hòa về màu sắc, khiến ngôi nhà trở nên thanh lịch, trang nhã.",
+        "address": "Nằm gần biển núi Ngũ Hành Sơn",
+        "architecture": "Nguyễn Văn Lập",
+        "client": "Ngô Xuân Hài",
+        "cost": 19802022,
+        "isBooked": false,
+        "photo": "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-5.jpg",
+        "area": 4000000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1494526585095-c41746248156?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f5d5",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà biệt thự cổ",
+        "description": "Mẫu nhà lô 3 tầng nhà anh Huân được thiết kế theo phong cách hiện đại. Ngôi nhà được phối hợp giữa màu sơn trắng sữa, màu ghi đậm và điểm xuyết thêm màu nâu của gạch ốp tường tạo nên một tổng thể hài hòa về màu sắc, khiến ngôi nhà trở nên thanh lịch, trang nhã.",
+        "address": "Nằm gần núi Ngũ Hành Sơn",
+        "architecture": "Nguyễn Văn Lập",
+        "client": "Ngô Xuân Hài",
+        "cost": 197000000,
+        "isBooked": false,
+        "photo": "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-6.jpg",
+        "area": 40000000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1087&q=80",
+            "https://images.unsplash.com/photo-1570057633712-870fa818fa15?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f5d6",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà 2 tầng sang trọng",
+        "description": "Ngôi nhà hấp dẫn ở hình khối vô cùng phóng khoáng với cách sắp xếp độc đáo của các kts Troc Studio mang đến sự năng động, tươi trẻ và mới mẻ chỉ bằng những khối vuông vắn, mạnh mẽ.Không khó để nhận thấy rằng hầu hết mọi ánh mắt đều bị thu hút bởi màu xanh của khóm cây tại ban công tầng 2 của ngôi nhà.",
+        "address": "Nằm gần biển Phạm Văn Đồng",
+        "architecture": "Nguyễn Sế",
+        "client": "Ngô Đình Huy",
+        "cost": 445000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 40000000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1568092775154-7fa176a29c0f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80",
+            "https://images.unsplash.com/photo-1529290130-4ca3753253ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f5d7",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Kiwi Apartment",
+        "description": "Hệ thống cửa được làm từ những ô kính lớn, tạo view từ trong ra ngoài, đồng thời cũng giúp lấy ánh sáng tự nhiên vào trong nhà nhiều hơn. Tầng 3 lan can được biến tấu thành giàn lưới, tạo giàn để trồng cây hoa leo, vừa tăng thẩm mỹ vừa giúp tạo không gian cho cây xanh phát triển.",
+        "address": "K16 Phan Tôn, Đà Nẵng",
+        "architecture": "Nguyễn Đình Hân",
+        "client": "Trần Quốc Chiến",
+        "cost": 68600000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1560200353-ce0a76b1d438?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+        "area": 67500000,
+        "relatedPhoto": [
+            "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-8.jpg",
+            "https://images.unsplash.com/photo-1576675784201-0e142b423952?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f5d8",
+        "user": "5d7a514b5d2c12c7449be042",
+        "name": "Khách sạn Phượng Hoàng 3",
+        "description": "Một góc nhìn khác cận cảnh hơn của công trình. Diện tích sân vườn 70m2 xanh mát với đang dạng chủng loại cây cối từ thảm cỏ xanh tới cây lấy bóng mát. Sân công trình được lát đá tự nhiên giúp biệt thự tăng hơn tính xanh, thân thiện cùng môi trường và giải tỏa cái nóng vào mùa hè.",
+        "address": "K12 Phan Thanh",
+        "architecture": "Nguyễn Đình Chiểu",
+        "client": "Trần Quốc Vũ",
+        "cost": 90000000,
+        "isBooked": false,
+        "photo": "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-3.jpg",
+        "area": 617500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+            "https://images.unsplash.com/photo-1576675784432-994941412b3d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f5d9",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Mường Thanh 2",
+        "description": "Một góc nhìn khác cận cảnh hơn của công trình. Diện tích sân vườn 70m2 xanh mát với đang dạng chủng loại cây cối từ thảm cỏ xanh tới cây lấy bóng mát. Sân công trình được lát đá tự nhiên giúp biệt thự tăng hơn tính xanh, thân thiện cùng môi trường và giải tỏa cái nóng vào mùa hè.",
+        "address": "K12 Phan Thanh",
+        "architecture": "Nguyễn Ngọc Như Quỳnh",
+        "client": "Thế Sơn",
+        "cost": 22000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=998&q=80",
+        "area": 117500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+            "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f510",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà thường góc phố",
+        "description": "Mặt tiền ngôi nhà khá rộng (7m), được chia thành 2 cửa, 1 cửa lớn sử dụng cửa cuốn để cho xe oto ra vào dễ dàng, cửa phụ dẫn thẳng vào nhà.Ngôi nhà phù hợp với các cặp đôi vợ chồng trẻ thích nhịp sống sôi nổi ở phố.  Không gian ấm cúng được thiết kế hài hòa , đầy đủ chức năng và hợp ý gia chủ lẫn phong cách và phong thủy.",
+        "address": "K69 Lê Duẩn",
+        "architecture": "Lương Hoàng Bảo",
+        "client": "Triệu Vỹ",
+        "cost": 220000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1507149833265-60c372daea22?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1055&q=80",
+        "area": 1175000000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f511",
+        "user": "5d7a514b5d2c12c7449be045",
+        "name": "Nhà cấp 4 hiện đại",
+        "description": "Tầng hầm gara cửa cuốn an toàn. Phòng khách khá thoáng, không gian ấm cúng tiếp bạn bè hay các thành viên gia đình quây quần bên nhau. Bên trong là phòng bếp kết hợp với bàn ăn rộng rãi, thoải mái. Một phòng ngủ ở góc yên tĩnh cho giấc ngủ êm ái và một nhà vệ sinh chung..",
+        "address": "K12 Phan Thanh",
+        "architecture": "Nguyễn Thành Trung",
+        "client": "Võ Anh Đức",
+        "cost": 2442000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 1172500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f512",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà cấp 4 đẹp",
+        "description": "Chúng tôi xin giới thiệu các bạn những mẫu nhà cấp 4 gác lửng giá rẻ đẹp. Được ưa chuộng hiện nay với các kiểu 4x16m, 5x20m. Với các phong cách hiện đại hay đơn giản, mời các bạn cùng chúng tôi. Điểm qua những mẫu nhà cấp 4 giá rẻ, nhà lửng đẹp. Với những kiểu nhà đẹp đơn giản, những ngôi nhà cấp 4 đẹp như vậy nhé.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-1.jpg",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1448630360428-65456885c650?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80",
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f513",
+        "user": "5d7a514b5d2c12c7449be042",
+        "name": "Nhà cấp 4 gác lửng",
+        "description": "Thiết kế mẫu nhà cấp 4 có gác lửng giá rẻ trên diện tích 5×20. Có chi phí xây dựng giá rẻ đẹp, phù hợp với nhu cầu xây dựng nhà ở ngày một tăng cao. Của người dân đặc biệt đối với những gia đình có thu nhập trung bình. Và thấp với nhiều các kiểu nhà cấp 4 có gác lửng.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Bảo",
+        "client": "Võ Kiệt",
+        "cost": 132000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 1252500000,
+        "relatedPhoto": [
+            "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-7.jpg",
+            "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f514",
+        "user": "5d7a514b5d2c12c7449be045",
+        "name": "Nhà cấp 4 cao cấp",
+        "description": "Việc xây mẫu nhà cấp 4 có gác lửng 4×16 sẽ là lựa chọn vô cùng hợp lý nó có quy mô nhà nhỏ giá rẻ vì không chỉ vì có nguồn chi phí giá rẻ mà thể hiện sự tỉ mĩ của bạn trong việc chọn và xây nhà với không gian sống rộng rãi, thoải mái mà lại là mẫu nhà rẻ đẹp phổ biến với nhà cấp 4 gác lửng đẹp giá rẻ",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "http://paul-themes.com/html/intria/intria-demo/intria/light/img/latest-project/l-project-2.jpg",
+            "https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f515",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà cấp 4 thoáng mát",
+        "description": "Việc lựa chọn thiết kế mẫu nhà cấp 4 có gác lửng trên diện tích đất 4×16 là khá phổ biến đối với phần đông gia đình hiện nay, bởi ngôi nhà theo thiết kế này sẽ tiết kiệm được phần lớn chi phí xây dựng mẫu nhà giá rẻ cũng như sẽ đáp ứng được không gian sống thoải mái, dễ chịu cho gia đình bạn với nhà cấp 4 60m2 hoặc thiết kế nhà cấp 4 có gác lửng 50m2 nhà gác lửng nhỏ đẹp hơn",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Thành Viên",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1574643156929-51fa098b0394?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1560185127-2d06c6d08d3d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f516",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà ở sang trọng, hiện đại",
+        "description": "Việc lựa chọn thiết kế mẫu nhà cấp 4 có gác lửng trên diện tích đất 4×16 là khá phổ biến đối với phần đông gia đình hiện nay, bởi ngôi nhà theo thiết kế này sẽ tiết kiệm được phần lớn chi phí xây dựng mẫu nhà giá rẻ cũng như sẽ đáp ứng được không gian sống thoải mái, dễ chịu cho gia đình bạn với nhà cấp 4 60m2 hoặc thiết kế nhà cấp 4 có gác lửng 50m2 nhà gác lửng nhỏ đẹp hơn",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1560448204-61dc36dc98c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1560185008-b033106af5c3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1592928302636-c83cf1e1c887?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f517",
+        "user": "5d7a514b5d2c12c7449be043",
+        "name": "Nhà ở nhỏ đẹp",
+        "description": "Việc lựa chọn thiết kế mẫu nhà cấp 4 có gác lửng trên diện tích đất 4×16 là khá phổ biến đối với phần đông gia đình hiện nay, bởi ngôi nhà theo thiết kế này sẽ tiết kiệm được phần lớn chi phí xây dựng mẫu nhà giá rẻ cũng như sẽ đáp ứng được không gian sống thoải mái, dễ chịu cho gia đình bạn với nhà cấp 4 60m2 hoặc thiết kế nhà cấp 4 có gác lửng 50m2 nhà gác lửng nhỏ đẹp hơn",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1521783988139-89397d761dce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1047&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f518",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà cấp 4 bình dân, giản dị",
+        "description": "Hiện nay, không ít gia đình lựa chọn xây dựng nhà cấp 4 có gác lửng. Không chỉ những hộ gia đình ở nông thôn, mà ngay cả. Những gia đình thành thị cũng chuộng mẫu nhà này.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1537726235470-8504e3beef77?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1569152811536-fb47aced8409?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1055&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f519",
+        "user": "5d7a514b5d2c12c7449be045",
+        "name": "Nhà thiết kế đặc sắc",
+        "description": "Gác lửng, tầng lửng hiện đại hay gác xép là là tầng trung gian giữa các tầng trong một ngôi nhà hoặc tòa nhà, đây cũng một phần trong kiến trúc của ngôi nhà. Thiết kế nhà có gác lửng đẹp vừa giúp tiết kiệm diện tích sinh hoạt cho gia đình bạn vừa tạo nên nét đẹp độc đáo, mới lạ cho ngôi nhà.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1546791844-1a7fc3d7c809?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1049&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/flagged/photo-1556438758-8d49568ce18e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1053&q=80",
+            "https://images.unsplash.com/photo-1570544820446-1690843de6ea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f520",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà phong cách mới mẻ",
+        "description": "Hiện nay không ít gia đình lựa chọn thiết kế nhà cấp 4 có gác lửng hiện đại cho căn nhà của mình, tận dụng đó làm nơi sinh hoạt chung cho cả gia đình, làm phòng khách, bếp, phòng ăn hay phòng làm việc. Thậm chí nhiều thiết kế gác lửng được sử dụng làm phòng ngủ hay phòng đọc sách rất hợp lý và tiện lợi.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1495433324511-bf8e92934d90?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f521",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà thiết kế phức tạp",
+        "description": "Nhằm mang đến cho con người những không gian sống thoải mái nhất. Với các trang thiết bị hiện đại giảm thiểu tối đa kinh phí xây dựng ngày hôm nay chúng tôi mang đến cho các bạn một mẫu nhà cấp 4 gác lửng hiện đại.Có thể nói nó chính là mẫu nhà đại diện mang trong mình sự cải cách của kiến trúc và sự kết tinh của những yếu tố truyền thống. Kết hợp với các yếu tố hiện đại từ đó làm ra các sản phẩm có thể đạt đến độ hoàn hảo.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=973&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1560184897-502a475f7a0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f522",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà thiết kế độc đáo",
+        "description": "Trong thiết kế, gác lửng là một diện tích được thiết kế ra để tăng không gian sống cho ngôi nhà. Nhất là những ngôi nhà có diện tích hẹp hoặc bị hạn chế về chiều cao. Không chỉ vậy, gác lửng còn tạo nên tính thẩm mỹ cho ngôi nhà bạn.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1528255671579-01b9e182ed1d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1611216212569-d739dbe9ed40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
+            "https://images.unsplash.com/photo-1546551613-09c2f83e1ede?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1055&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f548",
+        "user": "5d7a514b5d2c12c7449be043",
+        "name": "Nhà ở hiện đại, độc đáo",
+        "description": "Thiết kế nhà mẫu nhà cấp 4 gác lửng giá rẻ độc đáo về kiến trúc, tùy theo gia chủ mà gác lửng sẽ được thiết kế phá cách, có thể là 1 hay 2 gác lửng với cầu thang xoắn ốc hiện đại… để tạo ra mẫu nhà cấp 4 đẹp giá rẻ. Biến tấu của mẫu nhà có gác lửng trong thiết kế mang đến sự độc đáo tuyệt vời cho căn nhà bạn như những mẫu nhà cấp 4 nhỏ đẹp như này.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1556912998-c57cc6b63cd7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1560185127-bc36ce01f6e5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1568149139788-4d3b85e9cccc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f523",
+        "user": "5d7a514b5d2c12c7449be042",
+        "name": "Nhà ở bình dân",
+        "description": "So với những thiết kế nhà 2 tầng hay 3 tầng thì hiển nhiên các mẫu nhà có gác lửng, mẫu nhà cấp 4 gác lửng đẹp được xây dựng với kinh phí thấp hơn. Thậm chí, nếu so sánh với nhà 1 tầng, mẫu nhà này cũng có thể được coi là có mức chi phí xây dựng thấp hơn và thiết kế nhà cấp 4 gác lửng đơn giản lạ lẫm hơn.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1542853647-47ad77242390?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1570054417349-6608f370f6d7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=996&q=80",
+            "https://images.unsplash.com/photo-1560184897-6cdec21b9962?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f524",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Botique Retreat",
+        "description": "Nằm đối diện 2 sân golf nổi tiếng của CLB chơi golf Montgomerie Links Vietnam, Naman Retreat cung cấp cho khách hồ bơi ngoài trời và khu vực bãi biển riêng.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1459535653751-d571815e906b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f525",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Dragron Phoenix",
+        "description": "Để tạo đột phá trong phát triển du lịch tại nước nhà. Cũng như các tỉnh lân cận thì ngoài việc tỉnh luôn chú trọng nâng cấp phát triển hạ tầng du lịch. Hiện nay các đơn vị kinh doanh trong lĩnh vực du lịch Khách sạn khá nhiều. Khách sạn tân cổ điển được chủ đầu tư chủ động tìm hướng đầu tư đúng chiến lược nhất.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f526",
+        "user": "5d7a514b5d2c12c7449be045",
+        "name": "Khách sạn Accessories",
+        "description": "Các mẫu thiết kế kiến trúc Khách sạn đẹp và sang trọng thực sự quan trọng và cần thiết với các chủ đầu tư kinh doanh Khách sạn. Và đối với chính các khách hàng lựa chọn Khách sạn để dùng chân nghỉ dưỡng cũng dựa vào đánh giá khách quan đối với Khách sạn đó. Thiết kế  Khách sạn với không gian độc đáo sẽ là điểm nhấn tạo được ấn tượng, cảm giác mới lạ và thoải mái đến với khách hàng.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1521782462922-9318be1cfd04?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f527",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Troc Architecture",
+        "description": "Một Khách sạn được xây dựng với sự tư vấn, giúp đỡ của đội ngũ chuyên gia thiết kế  giỏi công ty Troc Studio sẽ không làm quý chủ đầu tư thất vọng với thành quả mình nhận được.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f528",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Universal",
+        "description": "Đối với nhu cầu về nhà đất ở Việt Nam, thịnh hành nhất hiện nay có khá nhiều kiểu kiến trúc. Có người thích mẫu Khách sạn vườn đẹp với nhiều cảnh quan cây cối xung quanh, kết hợp giữa môi trường và không gian sống. Mang lại sự hài hòa chung về phong cách sống và tính nhân văn. có người thích Khách sạn theo phong cách cổ điển để lưu lại thời gian một thời đã qua. Troc Studio là một công ty chuyên thiết kế Khách sạn bán cổ điển mang lại phong cách hiện đại lẫn cổ điển.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1449247613801-ab06418e2861?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80",
+            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f529",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Luxury Furuma",
+        "description": "Công nghệ tiên tiến ,đòi hỏi con người cũng tiến triển theo nó từ đó Khách sạn dần dần ra đời. Sâp cũng là nơi tham quan du lịch của rất nhiều không gian du lịch. Đến với SAPA là một khu nghỉ dưỡng phức hợp sang trọng nhiều lĩnh vực về dịch vụ hoạt động giải trí nghỉ dường , nhà hàng cao cấp sang trọng , trung tâm spa và một số trò chơi có thưởng hiện đại.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+            "https://images.unsplash.com/photo-1529290130-4ca3753253ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f530",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Thăng Long",
+        "description": "Thiết kế Khách sạn – thiết kế Khách sạn đẹp với nội thất hiện đại đó là một trong những chuyên ngành công ty Troc Studio chúng tôi đã và đang thiết kế và thi công tại Thành phố Hồ Chí Minh và các tỉnh thành trên cả nước như Long An, Gia Lai, Kiên Giang , An Giang , Bạc Liêu , Nghệ An , Hà Nội, Thanh Hóa ,…",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f531",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn FourPoint",
+        "description": "Thời nay công nghệ thông tin hiện đại bao nhiêu kinh tế tăng trưởng, thì nhu cầu về cuộc sống của con người cũng tăng cao . Do đó , nhu cầu đi du lịch cũng mỗi ngày một tăng cao trong dịp nghỉ lễ , hè và đặc biệt là dịp tết .Từ đó , dẫn đến một số tỉnh , thành phố có tiềm năng phát triển về ngành du lịch như Nghệ An , Cần Thơ ,Đà lạt, Tp.Hồ Chí Minh ,Vũng tàu, Kiên Giang , ….có nhiều chủ đầu tư kinh doanh Khách sạn họ mong muốn tìm được một Kiến Trúc Sư hoặc công ty tư vấn thiết kế để thiết kế Khách sạn.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1053&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f532",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn SunShine",
+        "description": "Một Khách sạn thu hút nhiều du khách trong và ngoài nước đến để đặt phòng thì ngoài những vị trí mà Khách sạn đó tọa lạc thì việc thiết kế, bố trí phòng, sảnh, dịch vụ của Khách sạn cũng được các khách du lịch quan tâm trước khi họ đặt phòng.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1501183638710-841dd1904471?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1573668200361-62e141908294?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f533",
+        "user": "5d7a514b5d2c12c7449be042",
+        "name": "Khách sạn Louis Tonique",
+        "description": "Thiết kế Khách sạn cần chú ý vào những qui chuẩn, qui định của đơn vị cấp phép, phòng cháy chữa cháy, tổng cục du lịch và các cơ quan, ban ngành cấp phép để Khách sạn được hoạt động. Một KTS giỏi khi thiết kế Khách sạn thể hiện qua việc bố trí, sắp xếp các phòng hợp lý, bố trí hệ thống cấp thoát nước, thang bộ, thang máy, hệ thống phòng chông cháy nổ, thoát hiểm, hộp gen kỹ thuật.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1602081115720-72e5b0a254b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+            "https://images.unsplash.com/photo-1594182957126-9e4ec2ef74ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f534",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Alexander",
+        "description": "Bao phủ lên không gian ngoại thất Khách sạn tân cổ điển đẹp là gam màu sơn trắng tinh khiết. Nét tân cổ điển thanh thoát làm nổi bật lên những đường phào chỉ đơn giản mà sắc nét. Nổi bật trên nền sơn trắng đó là các khung cửa, ban công, ô văng chất liệu gỗ kính khá tinh tế nhất hiện nay.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1055&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1534679541758-8dc76ff8081d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1083&q=80",
+            "https://images.unsplash.com/photo-1594130139005-3f0c0f0e7c5e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f535",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Fire Fish",
+        "description": "Với các tầng hệ thống nhà Khách sạn luôn hiện hữu cho chủ đầu tư. Với sự lặp lại kiến trúc các tầng tạo nên vẻ đẹp đồng đều, cân xứng cho Khách sạn 3 sao. Tiền sảng vô cùng sang trọng được thiết kế khá cầu kì với màu sơn vàng đồng nổi bật cho không gian Khách sạn. Khu vực tân phú hồ chí minh có một vị trí quan trọng nhất của mẫu thiết kế Khách sạn tân cổ điển 3 sao. Bởi đây là nơi đón tiếp khách và từ đây khách hàng sẽ đánh giá cao bởi đa số khách hàng.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1544097935-e6d136448533?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f536",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Monalisque",
+        "description": "Thiết kế Khách sạn đẹp. Sang trọng đang được giới đầu tư chú trọng đến hình thức kiến trúc ngoại thất cũng như nội thất. Thiết kế Khách sạn đẹp đang hướng đến sự phát triển ở những địa điểm du lịch. Với nhu cầu về chất lượng dịch vụ ngày một cao. Của các du khách cũng như sự đòi hỏi của con người. Chủ đầu tư kinh doanh Khách sạn luôn rất chú trọng từ ngoại thất đến nội thất bên trong của Khách sạn.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1594560913036-d15f23f8a91c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1049&q=80",
+            "https://images.unsplash.com/photo-1590490359854-dfba19688d70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f537",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn GMO Runsystem",
+        "description": "Thiết kế Khách sạn theo phong cách tây phương luôn ấn tượng bởi sự sang trọng, tiện dụng của nó.Thiết kế giúp các doanh nhân nâng tầm dịch vụ Khách sạn chuyên nghiệp của mình Thiết kế Khách sạn theo phong cách tây phương luôn ấn tượng bởi sự sang trọng, tiện dụng của nó.Thiết kế giúp các doanh nhân nâng tầm dịch vụ Khách sạn chuyên nghiệp của mình. Tại sảnh chính là quầy tiếp tân với những vật dụng văn phòng thể hiện sự chuyên nghiệp.Thiết kế nội thất sảnh đón khách được pha trộn tính nghệ thuật với những bức tranh đen trắng.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=998&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f538",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Khách sạn Thịnh Phước",
+        "description": "Những mẫu Khách sạn đẹp nhiều tầng. Là một trong những mẫu ưa chuộng nhất hiện nay với kiến trúc bán cổ điển. Mẫu được khách hàng tại Kiến An Vinh đánh giá cao về tính thẩm mỹ. Cũng nên độ hoành tráng đồ sộ tại Gia Lai. Những mẫu Khách sạn đẹp nhiều tầng là một trong những mẫu ưa chuộng nhất hiện nay với kiến trúc bán cổ điển. Mẫu được khách hàng tại Kiến An Vinh đánh giá cao về tính thẩm mỹ cũng nên độ hoành tráng đồ sộ tại Gia Lai.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1565183997392-2f6f122e5912?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/flagged/photo-1556438758-8d49568ce18e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1053&q=80",
+            "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff782"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f539",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Biệt thự",
+        "description": "Một biệt thự 4 tầng với thiết kế phong cách đậm chất cổ điển châu Âu, được xây dựng trên diện tích vuông vức: 13mx13m (chưa bao gồm khuôn viên cây xanh và hồ bơi rộng thoáng). Đó chính là dự án biệt thự ở Nhà Bè mà đội ngũ các anh em Troc Studio đảm nhiệm thực hiện thiết kế và thi công trong suốt những năm qua.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1582417728413-b2347161b864?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+            "https://images.unsplash.com/photo-1576675784432-994941412b3d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f540",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Biệt thự hồ Koi",
+        "description": "Tọa lạc trên khuôn viên đất xấp xỉ 1500m2, biệt thự được xây dựng với diện tích chiếm đất xấp xỉ 300m2,  có 1 tầng hầm và 4 tầng nổi, chứa được 5 phòng ngủ lớn, 1 phòng khách lớn, 1 phòng bếp ăn lớn, 1 phòng thờ lớn, 1 phòng Gymhome, 1 phòng sưu tập đồ chơi lớn, 2 nhà gỗ, 1 hồ nuôi cá Koi.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1551215717-8bc8cfe833ee?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+            "https://images.unsplash.com/photo-1576675784201-0e142b423952?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f541",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Biệt thự Châu Âu",
+        "description": "Biệt thự siêu đẹp này được thiết kế và xây dựng cho mục đích làm nơi tề tựu đại gia đình mỗi dịp lễ tết, đám tiệc của một gia đình đông anh em trưởng thành mỗi người ở một phương.Phong cách kiến trúc Tân cổ điển Châu Âu, nội thất được thiết kế kết hợp giữa cổ điển Châu Âu với nội thất thuần Việt tạo ra cá tính riêng của gia chủ.",
+        "address": "K15 Phan Thiết",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 142000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 1532500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1570057633712-870fa818fa15?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1576675784201-0e142b423952?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f542",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Biệt thự của Trọc",
+        "description": "Tọa lạc trong khuôn viên 8.000 m2 đất tiếp xúc liền kề với một khu cảng biển nội địa sầm uất có diện tích xấp xỉ 25 ha. Khu nhà dành cho chuyên gia vận hành cảng được chủ đầu tư tin tưởng đặt hàng cho Troc Studio thiết kế với phong cách bán cổ điển cao cấp. Troc Studio muốn chia sẻ đến các bạn các thông tin cơ bản của dự án thiết kế này, để qua đó giúp các bạn hiểu thêm về kinh nghiệm, hiểu thêm về mức độ  uy tín của Troc Studio trong phân khúc thiết kế nhà ở để có thêm cơ sở tin tưởng mà lỡ có làm nhà cũng yên tâm gọi điện cho Troc Studio tư vấn và cung cấp dịch vụ thiết kế, xây dựng, hoàn thiện nội thất cho các bạn.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1539693010221-cd218dfe6565?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1087&q=80",
+            "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f543",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Biệt thự Châu Á",
+        "description": "Khu đất được chủ đầu tư dành riêng để làm khu nhà ở cho chuyên gia được quy hoạch rất vuông vắn với bề ngang xấp xỉ 55m và chiều sâu xấp xỉ 150m được vạch tuyến giao thông chính ở giữa chia khu đất làm thành hai dãy nhà liền kề vườn tiếp xúc vườn, mặt tiền đối mặt tiền và có phong cách tân cổ điển nên nhìn giống giống với một khu đô thị cao cấp của Vingroup.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f544",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Biệt thự Đà Nẵng",
+        "description": "Mỗi căn được phân định trên diện tích đất 20x20m và diện tích thiết kế xây dựng chiếm đất xấp xỉ 15x15m, đường ô tô và đường đi bộ nội khu song song chiếm giữa 15m. Nội khu khép kín và được bảo an 24/24 nên giữa các căn nhà chuyên gia không cần tường rào bao che, ngăn cách, thay vào đó sử dụng cây xanh phân định ranh giới và tăng chất lượng sống xanh cho toàn bộ khu nhà.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1543503103-f94a0036ed9d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1576675784201-0e142b423952?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80",
+            "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f545",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Nhà ở rộng rãi",
+        "description": "Đây là một dự án có bề ngang 7,5m được các KTS của Louis thiết kế với dáng vẻ bề thế của một căn biệt thự cổ điển nhưng vẫn lấy hết bề ngang của nó để làm nơi ở rộng rãi và an toàn hơn. Qui mô lầu cao của nó gồm có 1 tầng trệt, 1 tầng lầu và 1 tầng áp mái với năng lực cung ứng gồm có 4 phòng ngủ, 1 phòng khách, 1 khu bếp kết hợp được bàn ăn, 1 không gian thờ gia tiên lớn, 1 khu tập Gym tại nhà và 1 khu giặt phơi lớn ",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1495433324511-bf8e92934d90?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1060&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff784"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f546",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Biệt thự hiện đại",
+        "description": "Đây là dự án cải tạo mà Louis được gia chủ giao cho nhiệm vụ thiết kế – thi công trọn gói. Căn biệt thự ban đầu tưởng chừng như rất nguy nga, bề thế nhưng lại tồn tại khá nhiều bất cập, không gian bên trong xuống cấp, nội thất lỗi thời. Hơn ai hết, gia chủ nhận ra điều này từ rất sớm nên mong muốn “hô biến” biệt thự nhà mình để nâng cao chất lượng cuộc sống ngay tại nhà.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 42000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1530734218972-25a9391ccd8b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "area": 152500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1576154918674-f31a1c91a3cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1177&q=80",
+            "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f547",
+        "user": "5d7a514b5d2c12c7449be044",
+        "name": "Biệt thự sang trọng",
+        "description": "Tọa lạc một vị trí đắc địa, quyến rũ trong một khu dân cư mới sang trọng, Thẩm Mỹ Viện Ngọc Hường chi nhánh Quảng Ninh sở hữu diện tích đất xấp xỉ 12m x 27m, được thiết kế với quy mô một Trệt, 2 Lầu và 1 tum che thang, công năng sử dụng: tầng Trệt làm nơi tiếp khách,trưng bày sản phẩm làm đẹp, văn phòng làm việc quản lý, khu vệ sinh chung; tầng 1 và tầng 2 sử dụng cho dịch vụ Spa; một phần diện tích lầu 2 được tận dụng làm căn hộ hai phòng ngủ cho gia chủ làm chốn nghỉ ngơi sau giờ làm việc.",
+        "address": "K16 Phan Thanh",
+        "architecture": "Nguyễn Trung",
+        "client": "Võ Anh",
+        "cost": 99942000000,
+        "isBooked": false,
+        "photo": "https://images.unsplash.com/photo-1556910096-6f5e72db6803?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80",
+        "area": 9952500000,
+        "relatedPhoto": [
+            "https://images.unsplash.com/photo-1576493169316-0745093ae312?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+            "https://images.unsplash.com/flagged/photo-1556438758-8be0c4afe990?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        ],
+        "categories": "5d725a4a7b292f5f8ceff783"
+    }
 ]

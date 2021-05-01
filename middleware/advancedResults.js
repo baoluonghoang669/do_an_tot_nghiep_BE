@@ -1,82 +1,90 @@
-const advancedResults = (model, populate) => async (req, res, next) => {
-  let query;
+const advancedResults = (model, populate) => async(req, res, next) => {
+    let query;
 
-  //Copy req.query
-  const reqQuery = { ...req.query };
+    //Copy req.query
+    const reqQuery = {...req.query };
 
-  //Fields to exclude
-  const removeFields = ["select", "sort", "page", "limit"];
+    //Fields to exclude
+    const removeFields = ["select", "sort", "page", "limit", "search"];
 
-  removeFields.forEach((param) => delete reqQuery[param]);
+    removeFields.forEach((param) => delete reqQuery[param]);
 
-  //Create query string
-  let queryString = JSON.stringify(reqQuery);
+    //Create query string
+    let queryString = JSON.stringify(reqQuery);
 
-  //Create operators ($gt, $gte, etc)
-  queryString = queryString.replace(
-    /\b(gt|gte|lt|lte|in)\b/g,
-    (match) => `$${match}`
-  );
+    //Create operators ($gt, $gte, etc)
+    queryString = queryString.replace(
+        /\b(gt|gte|lt|lte|in)\b/g,
+        (match) => `$${match}`
+    );
 
-  //Finding resource
-  query = model.find(JSON.parse(queryString));
+    //Finding resource
+    query = model.find(JSON.parse(queryString));
 
-  if (populate) {
-    query = query.populate(populate);
-  }
+    if (populate) {
+        query = query.populate(populate);
+    }
 
-  //Select Fields
-  if (req.query.select) {
-    const fields = req.query.select.split(",").join(" ");
-    query = query.select(fields);
-  }
+    //Select Fields
+    if (req.query.select) {
+        const fields = req.query.select.split(",").join(" ");
+        query = query.select(fields);
+    }
 
-  //Sort fields
-  if (req.query.sort) {
-    const sortBy = req.query.sort.split(",").join(" ");
-    query = query.sort(sortBy);
-  } else {
-    query = query.sort("-createdAt");
-  }
+    //Select Fields
+    if (req.query.client) {
+        const fields = await model.find({ client: req.query.client });
+        query = query.select(fields);
+        console.log(fields);
+        console.log(query);
+    }
 
-  //Pagination
-  const page = parseInt(req.query.page, 10) || 1;
-  const limit = parseInt(req.query.limit, 10) || 50;
-  const startIndex = (page - 1) * limit;
-  const endIndex = page * limit;
-  const total = await model.countDocuments();
+    //Sort fields
+    if (req.query.sort) {
+        const sortBy = req.query.sort.split(",").join(" ");
+        query = query.sort(sortBy);
+    } else {
+        query = query.sort("-createdAt");
+    }
 
-  //Skip: lấy document trong kết quả ở vị trí thứ bao nhiêu bằng cách bỏ qua các document trước đó.
-  query = query.skip(startIndex).limit(limit);
+    //Pagination
+    const page = parseInt(req.query.page, 10) || 1;
+    const limit = parseInt(req.query.limit, 10) || 50;
+    const startIndex = (page - 1) * limit;
+    const endIndex = page * limit;
+    const total = await model.countDocuments();
 
-  //Executing query
-  const results = await query;
+    //Skip: lấy document trong kết quả ở vị trí thứ bao nhiêu bằng cách bỏ qua các document trước đó.
+    query = query.skip(startIndex).limit(limit);
 
-  //Pagination result
-  const pagination = {};
+    //Executing query
+    const results = await query;
 
-  if (endIndex < total) {
-    pagination.next = {
-      page: page + 1,
-      limit,
+    //Pagination result
+    const pagination = {};
+
+    if (endIndex < total) {
+        pagination.next = {
+            page: page + 1,
+            limit,
+        };
+    }
+
+    if (startIndex > 0) {
+        pagination.prev = {
+            page: page - 1,
+            limit,
+        };
+    }
+
+    res.advancedResults = {
+        success: true,
+        count: results.length,
+        pagination,
+        data: results,
     };
-  }
 
-  if (startIndex > 0) {
-    pagination.prev = {
-      page: page - 1,
-      limit,
-    };
-  }
-
-  res.advancedResults = {
-    success: true,
-    count: results.length,
-    pagination,
-    data: results,
-  };
-
-  next();
+    next();
 };
 
 module.exports = advancedResults;

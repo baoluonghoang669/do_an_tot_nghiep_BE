@@ -5,6 +5,8 @@ const {
   getCategory,
   updateCategory,
   deleteCategory,
+  exportAllExcels,
+  exportExcel,
 } = require("../controllers/categoriesController");
 
 const Category = require("../models/Category");
@@ -31,6 +33,9 @@ router
     getCategories
   )
   .post(protect, authorize("admin"), createCategory);
+
+router.route("/export").get(exportAllExcels);
+router.route("/export/:id").get(exportExcel);
 
 router
   .route("/:id")
