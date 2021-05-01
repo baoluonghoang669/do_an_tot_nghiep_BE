@@ -1,11 +1,10 @@
 const path = require("path");
 const Project = require("../models/Project");
-const ErrorResponse = require("../utils/errorResponse");
+const ErrorResponse = require("../utils/errorResponse").default;
 const asyncHandler = require("../middleware/async");
 const Category = require("../models/Category");
 const ExcelJs = require("exceljs");
 const readXlsxFile = require("read-excel-file/node");
-const { log } = require("console");
 
 //@desc Get all projects
 //@route Get /api/v1/projects

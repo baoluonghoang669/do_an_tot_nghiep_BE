@@ -1,5 +1,5 @@
 const User = require("../models/User");
-const ErrorResponse = require("../utils/errorResponse");
+const ErrorResponse = require("../utils/errorResponse").default;
 const asyncHandler = require("../middleware/async");
 const ExcelJs = require("exceljs");
 const readXlsxFile = require("read-excel-file/node");
@@ -10,75 +10,77 @@ const moment = require("moment");
 //@access Private
 exports.getUsers = asyncHandler(async(req, res, next) => {
     const { name, email, phone, address, birthday, city } = req.query;
-    if (name) {
-        const data = await User.find({
-            name: { $regex: name, $options: "$si" },
-        });
-        console.log(data);
-        res.status(200).json({
-            success: true,
-            totalCount: data.length,
-            data: data,
-        });
+    if (name || email || phone || address || birthday || city) {
+        if (name) {
+            const data = await User.find({
+                name: { $regex: name, $options: "$si" },
+            });
+            res.status(200).json({
+                success: true,
+                totalCount: data.length,
+                data: data,
+            });
+        }
+        if (email) {
+            const data = await User.find({
+                email: { $regex: email, $options: "$si" },
+            });
+            res.status(200).json({
+                success: true,
+                totalCount: data.length,
+                data: data,
+            });
+        }
+        if (address) {
+            const data = await User.find({
+                address: { $regex: address, $options: "$si" },
+            });
+            res.status(200).json({
+                success: true,
+                totalCount: data.length,
+                data: data,
+            });
+        }
+        if (birthday) {
+            const date = new Date(birthday);
+            const today = date.toLocaleDateString(`fr-CA`).split("/").join("-");
+            var start = moment().startOf("day");
+            var end = moment(today).endOf("day");
+            const data = await User.find({
+                birthday: {
+                    $gte: start,
+                    $lte: end,
+                },
+            });
+            res.status(200).json({
+                success: true,
+                totalCount: data.length,
+                data: data,
+            });
+        }
+        if (city) {
+            const data = await User.find({
+                city: { $regex: city, $options: "$si" },
+            });
+            res.status(200).json({
+                success: true,
+                totalCount: data.length,
+                data: data,
+            });
+        }
+        if (phone) {
+            const data = await User.find({
+                phone: { $regex: phone, $options: "$si" },
+            });
+            res.status(200).json({
+                success: true,
+                totalCount: data.length,
+                data: data,
+            });
+        }
+    } else {
+        res.status(200).json(res.advancedResults);
     }
-    if (email) {
-        const data = await User.find({
-            email: { $regex: email, $options: "$si" },
-        });
-        res.status(200).json({
-            success: true,
-            totalCount: data.length,
-            data: data,
-        });
-    }
-    if (address) {
-        const data = await User.find({
-            address: { $regex: address, $options: "$si" },
-        });
-        res.status(200).json({
-            success: true,
-            totalCount: data.length,
-            data: data,
-        });
-    }
-    if (birthday) {
-        const date = new Date(birthday);
-        const today = date.toLocaleDateString(`fr-CA`).split("/").join("-");
-        var start = moment().startOf("day");
-        var end = moment(today).endOf("day");
-        const data = await User.find({
-            birthday: {
-                $gte: start,
-                $lte: end,
-            },
-        });
-        res.status(200).json({
-            success: true,
-            totalCount: data.length,
-            data: data,
-        });
-    }
-    if (city) {
-        const data = await User.find({
-            city: { $regex: city, $options: "$si" },
-        });
-        res.status(200).json({
-            success: true,
-            totalCount: data.length,
-            data: data,
-        });
-    }
-    if (phone) {
-        const data = await User.find({
-            phone: { $regex: phone, $options: "$si" },
-        });
-        res.status(200).json({
-            success: true,
-            totalCount: data.length,
-            data: data,
-        });
-    }
-    res.status(200).json(res.advancedResults);
 });
 
 //@desc Get single user

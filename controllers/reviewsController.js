@@ -1,10 +1,11 @@
-const ErrorResponse = require("../utils/errorResponse");
+const ErrorResponse = require("../utils/errorResponse").default;
 const asyncHandler = require("../middleware/async");
 const Review = require("../models/Review");
 const Project = require("../models/Project");
 const User = require("../models/User");
 const ExcelJs = require("exceljs");
 const readXlsxFile = require("read-excel-file/node");
+
 //@desc Get all reviews
 //@route Get /api/v1/reviews
 //@route Get /api/v1/projects/:projectId/reviews
@@ -16,7 +17,7 @@ exports.getReviews = asyncHandler(async(req, res, next) => {
             project: req.params.projectId,
         }).populate({
             path: "user",
-            select: "name email",
+            select: "name email avatar",
         });
 
         return res.status(200).json({

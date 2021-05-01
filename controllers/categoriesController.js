@@ -1,5 +1,5 @@
 const Category = require("../models/Category");
-const ErrorResponse = require("../utils/errorResponse");
+const ErrorResponse = require("../utils/errorResponse").default;
 const asyncHandler = require("../middleware/async");
 const ExcelJs = require("exceljs");
 

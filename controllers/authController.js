@@ -1,9 +1,10 @@
 const path = require("path");
-const ErrorResponse = require("../utils/errorResponse");
+const ErrorResponse = require("../utils/errorResponse").default;
 const asyncHandler = require("../middleware/async");
 const User = require("../models/User");
 const sendEmail = require("../utils/sendEmail");
 const crypto = require("crypto");
+
 //@desc Login
 //@route Post /api/v1/auth/login
 //@access Public
@@ -65,7 +66,7 @@ exports.register = asyncHandler(async(req, res, next) => {
 //@access Public
 exports.getMe = asyncHandler(async(req, res, next) => {
     const user = await User.findById(req.user.id);
-    user.avatar = process.env.BASE_URL_PUBLIC + user.avatar;
+    user.avatar = user.avatar;
     res.status(200).json({
         success: true,
         data: user,
@@ -231,7 +232,6 @@ const sendTokenResponse = (user, statusCode, res) => {
 //@access Private
 exports.uploadAvatar = asyncHandler(async(req, res, next) => {
     const users = await User.findById(req.params.id);
-
     if (!users) {
         return next(
             new ErrorResponse(`User not found with id of ${req.params.id}`),
@@ -273,7 +273,9 @@ exports.uploadAvatar = asyncHandler(async(req, res, next) => {
             return next(new ErrorResponse(`Problem with upload file`), 500);
         }
 
-        await User.findByIdAndUpdate(req.params.id, { avatar: file.name });
+        await User.findByIdAndUpdate(req.params.id, {
+            avatar: process.env.BASE_URL_PUBLIC + file.name,
+        });
 
         res.status(200).json({
             success: true,
