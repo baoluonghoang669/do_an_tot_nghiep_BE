@@ -1,19 +1,19 @@
 [{
         "_id": "5d725a4a7b292f5f8ceff782",
         "image": "http://paul-themes.com/html/intria/intria-demo/intria/light/img/icon/spec-d-1.png",
-        "name": "Khách sạn",
-        "description": "Khách sạn là cơ sở kinh doanh lưu trú phổ biến trên Thế giới, đảm bảo chất lượng và tiện nghi cần thiết phục vụ kinh doanh lưu trú, đáp ứng một số yêu cầu về nghỉ ngơi, ăn uống, vui chơi giải trí và các dịch vụ khác trong suốt thời gian khách lưu trú tại khách sạn, phù hợp với động cơ, mục đích chuyến đi. Vì thế khách sạn là một nơi tuyệt vời để nghỉ ngơi."
+        "name": "Hotel",
+        "description": "The hotel is a popular accommodation business in the world, ensuring the quality and amenities necessary for the accommodation business, meeting a number of requirements for rest, dining, entertainment and other amenities. other services during the guest's stay at the hotel, in accordance with the motive and purpose of the trip. So the hotel is a great place to rest."
     },
     {
         "_id": "5d725a4a7b292f5f8ceff783",
         "image": "http://paul-themes.com/html/intria/intria-demo/intria/light/img/icon/spec-d-2.png",
-        "name": "Biệt thự",
-        "description": "Biệt thự là loại hình nhà ở được thiết kế và xây dựng trên một không gian tương đối hoàn thiện và biệt lập tương đối với không gian xây dựng chung. Thông thường, biệt thự được hiểu là nhà ở riêng lẻ có sân vườn (cây xanh, thảm cỏ, vườn hoa, …), có tường rào và lối ra vào riêng biệt. Việc thiết kế biệt thự đòi hỏi phải có nghệ thuật và thẩm mĩ cao.."
+        "name": "Villa",
+        "description": "Villa is a type of housing designed and built on a relatively complete and isolated space from the common construction space. Usually, a villa is understood as a separate house with a garden (green trees, lawns, flower gardens, ...), with separate fences and entrances. The design of villas requires high art and aesthetics."
     },
     {
         "_id": "5d725a4a7b292f5f8ceff784",
         "image": "http://paul-themes.com/html/intria/intria-demo/intria/light/img/icon/spec-d-3.png",
-        "name": "Nhà ở",
-        "description": "Nhà là công trình xây dựng có mái, tường bao quanh, cửa ra vào để ở, sinh hoạt văn hoá, xã hội hoặc cất giữ vật chất, phục vụ cho các hoạt động cá nhân và tập thể của con người, và có tác dụng bảo vệ cho các hoạt động đó. Nhà cũng có thể là một nơi cư trú hay trú ẩn. Tinh thần, nhà có thể liên quan tới trạng thái khi ở nơi trú ẩn hoặc sự tiện lợi."
+        "name": "Home",
+        "description": "House is a building with a roof, surrounding walls, and doors for living, cultural and social activities or material storage, serving individual and collective activities of people, and having an impact on people's lives. protection for such activities. Home can also be a place of residence or shelter. Mentally, home can be related to a state of being in shelter or convenience."
     }
 ]
